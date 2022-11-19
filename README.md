@@ -1,6 +1,9 @@
 # Project In Progress
 # Comparison of Energy Cost and Carbon Emissions for Air-Source Heat Pump and Natural Gas Furnaces in the US
 
+![house_view](/images/house_iso_view.png)
+ 
+
 ![elec_prices](/images/state_maps_Page_1.jpg)
 ![np_prices](/images/state_maps_Page_2.jpg)
 ![elec_ng_ratio](/images/state_maps_Page_3.jpg)
