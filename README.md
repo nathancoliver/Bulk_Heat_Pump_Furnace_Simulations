@@ -7,26 +7,26 @@ Compared the energy costs and carbon emissions of air-source heat pumps (ASHPs) 
 
 # Method
 
-01_extract_coordinates_from_epw.py
+#### 01_extract_coordinates_from_epw.py ####
 
-This file looped through all the epw files and extracted the following information about the weather station.
+This file looped through all the epw files and extracted the following information about each weather station.
 
-State
-Name
-Number
-WMO
-Latitude
-Longitude
+* State
+* Name
+* Number
+* WMO
+* Latitude
+* Longitude
 
 The ZIP Code of each weather station was also identified using the library Geopy. This attempt was unsuccesul in identifying all weather station ZIP codes. The original intent of determining weather station zip codes was to determine the subgrid associated with each county. Further along in the creation of this project, the FIPS number of each weather station was eventually determined to be located within the EPW file name.
 
 The extracted information was saved to several files beginning with the name 'ZIP_CODES' and ending in a single digit. The final data was combined into the file ZIP_CODES_FINAL.csv.
 
-02_station_to_fips.py
+#### 02_station_to_fips.py #### 
 
 This file was used to extract the FIPS number from the weather station file name. I made this realization after starting this project, which would have eliminated the need to use Geopy in the python file, 01_extract_coordinates_from_epw.py. The extracted data was saved to the EPW_FIPS_ZIP_CODES.csv file.
 
-03_assigning_subgrid_for_each_county.py
+#### 03_assigning_subgrid_for_each_county.py #### 
 
 This file was used to assign a subgrid to each county.
 
