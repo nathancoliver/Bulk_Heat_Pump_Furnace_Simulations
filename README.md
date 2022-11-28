@@ -83,12 +83,17 @@ Used a for loop to go through each county in the EPW_FIPS_ZIP_CODES.csv file. Us
 ## County-Based Map of Electrical Grid Subregion ##
 
 The map shown below on the left is the grid subregion map created by the US EPA. Each region of the grid has a different mix of fuels, with some using more energy from renewable sources, such as wind and solar, whereas other regions use more fossil fuels. The data collected in the 03_assigning_subgrid_for_each_county.py helped to create a map showing the different grid subregions at the county level, which when compared to the US EPA created map, shows a close match.
-
 ![grid_subregion_map](/images/grid_subregion_map_comparison.JPG)
 
+## Electricity and Natural Gas Prices ##
 
+State-level electricity and natural gas residential prices were used to calculate the energy costs of operating ASHPs, air conditioning units and natural gas furnaces. The electricity and natural gas residential prices for each state were collected from the USEIA website. County-level prices were not readily available, so state-level prices were used instead.
+
+### US State Electricity and Natural Gas Prices ###
 ![elec_prices](/images/state_maps_Page_1.jpg)
 ![np_prices](/images/state_maps_Page_2.jpg)
+
+### Comparison of Electricity and Natural Gas Prices ###
 ![elec_ng_ratio](/images/state_maps_Page_3.jpg)
 
 
