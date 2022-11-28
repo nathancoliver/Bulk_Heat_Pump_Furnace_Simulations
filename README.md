@@ -12,11 +12,11 @@ Compared the energy costs and carbon emissions of air-source heat pumps (ASHPs) 
 The BEOpt energy modeling program was used to create the IDF building model file of a typical single-family home, as shown below. Two different scenarios, each with different heating and cooling systems, were modeled in BEOpt and exported as separate IDF files. The HVAC systems are summarized below.
 
 * Scenario 1
-** Air-Source Heat Pump - SEER 22, 10 HSPF, Variable Speed 
+  * Air-Source Heat Pump - SEER 22, 10 HSPF, Variable Speed 
 
 * Scenario 2
-** AC Unit - SEER 22
-** Natural Gas Furnace - 95% AFUE
+  * AC Unit - SEER 22
+  * Natural Gas Furnace - 95% AFUE
 
 ![house_view](/images/house_iso_view.png)
 
@@ -34,7 +34,7 @@ Certain information for each US county were needed prior to beginning the Energy
 
 Other information was collected for each county, such as county name, and weather station latitude and longitude, but the above three sets of information were vital in performing the energy and carbon emission calculations.
 
-### Summary of Python Files USed for US County Information Data Preparation ###
+### Summary of Python Files Used for US County Information Data Preparation ###
 
 #### 01_extract_coordinates_from_epw.py ####
 
