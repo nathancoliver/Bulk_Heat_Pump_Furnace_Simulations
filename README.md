@@ -22,7 +22,22 @@ The BEOpt energy modeling program was used to create the IDF building model file
 
 ## Weather Files - EPW Files ##
 
-The weather files were downloaded from the NREL website [1], which has TMY3 weather files for each US county. These weather files are used for the ComStock and ResStock software. There were missing weather files in certain US counties in Texas, Alaska, and Hawaii. Counties with missing weather files were replaced with EPW files of neighboring counties.
+The weather files were downloaded from the NREL website [1], which has TMY3 weather files for each US county. These weather files are used for the ComStock and ResStock software. There were missing weather files in certain US counties in Texas, Alaska, and Hawaii. Counties with missing weather files were replaced with EPW files of neighboring counties. Below is a list of the counties with the missing weather files
+
+* 02100 - Haines, AK
+* 02105 - Hoonah-Angoon, AK
+* 02158 - Kusilvak, AK
+* 02195 - Petersburg, AK
+* 02198 - Prince of Wales-Hyder, AK
+* 02230 - Skagway, AK
+* 02275 - Wrangell, AK
+* 02282 - Yakutat, AK
+* 02290 - Yukon-Koyukuk, AK
+* 15005 - Kalawao, HI
+* 48151 - Fisher, TX
+* 48263 - Kent, TX
+* 48353 - Nolan, TX
+* 48433 - Stonewall, TX
 
 ## US County Data Preparation ##
 
