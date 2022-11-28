@@ -7,6 +7,35 @@ Compared the energy costs and carbon emissions of air-source heat pumps (ASHPs) 
 
 # Method
 
+## Building Model - IDF File ##
+
+The BEOpt energy modeling program was used to create the IDF building model file of a typical single-family home, as shown below. Two different scenarios, each with different heating and cooling systems, were modeled in BEOpt and exported as separate IDF files. The HVAC systems are summarized below.
+
+* Scenario 1
+** Air-Source Heat Pump - SEER 22, 10 HSPF, Variable Speed 
+
+* Scenario 2
+** AC Unit - SEER 22
+** Natural Gas Furnace - 95% AFUE
+
+![house_view](/images/house_iso_view.png)
+
+## Weather Files - EPW Files ##
+
+The weather files were downloaded from the NREL website [1], which has TMY3 weather files for each US county. These weather files are used for the ComStock and ResStock software. There were missing weather files in certain US counties in Texas, Alaska, and Hawaii. Counties with missing weather files were replaced with EPW files of neighboring counties.
+
+## US County Data Preparation ##
+
+Certain information for each US county were needed prior to beginning the EnergyPlus simulations. The following information was collected, and the process is detailed in the summary for the following three Python files.
+
+* County FIPS Number
+* County Subgrid
+* Weather Station Name
+
+Other information was collected for each county, such as county name, and weather station latitude and longitude, but the above three sets of information were vital in performing the energy and carbon emission calculations.
+
+### Summary of Python Files USed for US County Information Data Preparation ###
+
 #### 01_extract_coordinates_from_epw.py ####
 
 This file looped through all the epw files and extracted the following information about each weather station.
@@ -32,8 +61,7 @@ This file was used to assign a subgrid to each county.
 
 Used a for loop to go through each county in the EPW_FIPS_ZIP_CODES.csv file. Using the FIPS number of a particular county, the ZIP codes of each county were isolated. This was done using the file ZIP-COUNTY_FIPS_2018-03.csv, which has all of the ZIP codes for each county. A datframe in Pandas was created for each county and all of its corresponding ZIP codes. Once the ZIP codes were determined, a subgrid was assigned to each ZIP code. This was done using the file ZIP_SUBREGION.csv, which is a file from the USEPA which has collected every ZIP Code in the US and its corresponding subgrid. Once a subgrid was assigned for all ZIP codes of a particular county, then the subgrids were tallied to determine which subgrid was represented the most frequently. For most counties, only a single subgrid exists, but for some counties that are split between two subgrids or even share two subgrids, this method was effective in assigning subgrids to each county. This information would later be used to determine the carbon emission for operating ASHPs in each county, based on the carbon emissions produced by a particular subgrid. 
 
-![house_view](/images/house_iso_view.png)
- 
+
 
 ![elec_prices](/images/state_maps_Page_1.jpg)
 ![np_prices](/images/state_maps_Page_2.jpg)
@@ -46,3 +74,7 @@ Used a for loop to go through each county in the EPW_FIPS_ZIP_CODES.csv file. Us
 ![energy cost](/images/US_map_energy_cost.jpeg) 
 
 ![emissions](/images/US_map_emissions.jpeg)
+
+References
+
+[1] https://data.nrel.gov/submissions/156
