@@ -80,13 +80,17 @@ This file was used to assign a subgrid to each county.
 
 Used a for loop to go through each county in the EPW_FIPS_ZIP_CODES.csv file. Using the FIPS number of a particular county, the ZIP codes of each county were isolated. This was done using the file ZIP-COUNTY_FIPS_2018-03.csv, which has all of the ZIP codes for each county. A datframe in Pandas was created for each county and all of its corresponding ZIP codes. Once the ZIP codes were determined, a subgrid was assigned to each ZIP code. This was done using the file ZIP_SUBREGION.csv, which is a file from the USEPA which has collected every ZIP Code in the US and its corresponding subgrid. Once a subgrid was assigned for all ZIP codes of a particular county, then the subgrids were tallied to determine which subgrid was represented the most frequently. For most counties, only a single subgrid exists, but for some counties that are split between two subgrids or even share two subgrids, this method was effective in assigning subgrids to each county. This information would later be used to determine the carbon emission for operating ASHPs in each county, based on the carbon emissions produced by a particular subgrid. 
 
+## County-Based Map of Electrical Grid Subregion ##
+
+The map shown below on the left is the grid subregion map created by the US EPA. Each region of the grid has a different mix of fuels, with some using more energy from renewable sources, such as wind and solar, whereas other regions use more fossil fuels. The data collected in the 03_assigning_subgrid_for_each_county.py helped to create a map showing the different grid subregions at the county level, which when compared to the US EPA created map, shows a close match.
+
+![grid_subregion_map](/images/grid_subregion_map_comparison.JPG)
 
 
 ![elec_prices](/images/state_maps_Page_1.jpg)
 ![np_prices](/images/state_maps_Page_2.jpg)
 ![elec_ng_ratio](/images/state_maps_Page_3.jpg)
 
-![heatmap](/images/subgrid_map.png)
 
 ![heatmap](/images/heatmap_correlation.png)
 
