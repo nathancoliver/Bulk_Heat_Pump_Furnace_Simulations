@@ -89,13 +89,12 @@ The map shown below on the left is the grid subregion map created by the US EPA.
 
 State-level electricity and natural gas residential prices were used to calculate the energy costs of operating ASHPs, air conditioning units and natural gas furnaces. The electricity and natural gas residential prices for each state were collected from the USEIA website. County-level prices were not readily available, so state-level prices were used instead.
 
-### US State Electricity and Natural Gas Prices ###
+### US State Electricity Prices ###
 ![elec_prices](/images/state_maps_Page_1.jpg)
+### US State Natural Gas Prices ###
 ![np_prices](/images/state_maps_Page_2.jpg)
-
 ### Comparison of Electricity and Natural Gas Prices ###
 ![elec_ng_ratio](/images/state_maps_Page_3.jpg)
-
 
 ![heatmap](/images/heatmap_correlation.png)
 
