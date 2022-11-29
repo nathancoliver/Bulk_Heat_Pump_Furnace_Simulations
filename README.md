@@ -95,7 +95,7 @@ State-level electricity and natural gas residential prices were used to calculat
 ![np_prices](/images/state_maps_Page_2.jpg)
 ### Comparison of Electricity and Natural Gas Prices ###
 
-The ratio of electricity to natural gas prices provides a good indicator of the relative costs of operating ASHPs and natural gas furnaces. The units for both sets of prices are different, since electricity uses ¢/kWh, and natural gas uses $/MCF. The key here is converting the volume of natural gas, which is in MCF (millions of cubic feet) to units of energy. The average heat content for natural gas in the US in 2021 was 1037 BTU/CF [2] Below shows the calculations used to convert the prices of natural gas and electricity into the $/MMBtu.
+The ratio of electricity to natural gas prices provides a good indicator of the relative costs of operating ASHPs and natural gas furnaces. The units for both sets of prices are different, since electricity uses ¢/kWh, and natural gas uses USD/MCF. The key here is converting the volume of natural gas, which is in MCF (millions of cubic feet) to units of energy. The average heat content for natural gas in the US in 2021 was 1037 BTU/CF [2] Below shows the calculations used to convert the prices of natural gas and electricity into the USD/MMBtu.
 
 ![ng_elec_price_conversion](/images/ng_elec_price_conversion.png) 
 
