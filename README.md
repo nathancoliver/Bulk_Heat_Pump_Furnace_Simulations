@@ -96,16 +96,26 @@ State-level electricity and natural gas residential prices were used to calculat
 ### Comparison of Electricity and Natural Gas Prices ###
 
 The ratio of electricity to natural gas prices provides a good indicator of the relative costs of operating ASHPs and natural gas furnaces. The units for both sets of prices are different, since electricity uses ¢/kWh, and natural gas uses USD/MCF. The key here is converting the volume of natural gas, which is in MCF (millions of cubic feet) to units of energy. The average heat content for natural gas in the US in 2021 was 1037 BTU/CF [2] Below shows the calculations used to convert the prices of natural gas and electricity into the USD/MMBtu.
-
 ![ng_elec_price_conversion](/images/ng_elec_price_conversion.png) 
-
 ![elec_ng_ratio](/images/state_maps_Page_3.jpg)
+
+## Bulk EnergyPlus Simulations  ##
+
+A simulation for each of the two building IDF files were simulated with each weather file using a Python script. It was discovered during the project that most of the weather files have duplicates, due to the fact that not all counties have available weather data. Every county has its own EPW weather file, but the same weather station's data could be used for multiple counties, meaning that if not performed correctly, the same weather file could essentially be unnecessarily simulated multiple times.  In order to save time performing simulations, once a weather station was simulated, the weather station's name was added to an array in Python. While inside the bulk simulation's FOR loop, if the script has already simulated weather station, then the simulation for that county is skipped and instead copies the already simulated energy data for that weather station. This ensured a weather station's EPW file was only used once, and reduced simulation time by approximately 75%.  For each simulation, the necessary data was extracted from html files that were exported from the EnergyPlus simulations and saved into a csv file. 
+
+# Results #
+
+## Energy Cost Comparison of Air-Source Heat Pumps and Natural Gas Furnace/Air Conditioner Combination ## 
+
+![energy cost](/images/US_map_energy_cost.jpeg)
+
+## Carbon Emission Comparison of Air-Source Heat Pumps and Natural Gas Furnace/Air Conditioner Combination ## 
+
+![emissions](/images/US_map_emissions.jpeg)
 
 ![heatmap](/images/heatmap_correlation.png)
 
-![energy cost](/images/US_map_energy_cost.jpeg) 
 
-![emissions](/images/US_map_emissions.jpeg)
 
 References
 
