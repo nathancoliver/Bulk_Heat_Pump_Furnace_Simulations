@@ -1,4 +1,3 @@
-# Project In Progress
 # Comparison of Energy Cost and Carbon Emissions for Air-Source Heat Pump and Natural Gas Furnaces in the US
 
 # Abstract
@@ -101,7 +100,11 @@ The ratio of electricity to natural gas prices provides a good indicator of the 
 
 ## Bulk EnergyPlus Simulations  ##
 
-A simulation for each of the two building IDF files were simulated with each weather file using a Python script. It was discovered during the project that most of the weather files have duplicates, due to the fact that not all counties have available weather data. Every county has its own EPW weather file, but the same weather station's data could be used for multiple counties, meaning that if not performed correctly, the same weather file could essentially be unnecessarily simulated multiple times.  In order to save time performing simulations, once a weather station was simulated, the weather station's name was added to an array in Python. While inside the bulk simulation's FOR loop, if the script has already simulated weather station, then the simulation for that county is skipped and instead copies the already simulated energy data for that weather station. This ensured a weather station's EPW file was only used once, and reduced simulation time by approximately 75%.  For each simulation, the necessary data was extracted from html files that were exported from the EnergyPlus simulations and saved into a csv file. 
+A simulation for each of the two building IDF files were simulated with each weather file using a Python script. It was discovered during the project that most of the weather files have duplicates, due to the fact that not all counties have available weather data. Every county has its own EPW weather file, but the same weather station's data could be used for multiple counties, meaning that if not performed correctly, the same weather file could essentially be unnecessarily simulated multiple times.  In order to save time performing simulations, once a weather station was simulated, the weather station's name was added to an array in Python. While inside the bulk simulation's FOR loop, if the script has already simulated weather station, then the simulation for that county is skipped and instead copies the already simulated energy data for that weather station. This ensured a weather station's EPW file was only used once, and reduced simulation time by approximately 75%.  For each simulation, the necessary data was extracted from html files that were exported from the EnergyPlus simulations and saved into a csv file.
+
+## Calculating Energy Costs and Carbon Emissions ##
+
+![elec_ng_cost_emissions](ng_elec_price_emissions_calculations.png)
 
 # Results #
 
