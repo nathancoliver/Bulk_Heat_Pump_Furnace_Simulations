@@ -104,7 +104,7 @@ A simulation for each of the two building IDF files were simulated with each wea
 
 ## Calculating Energy Costs and Carbon Emissions ##
 
-![elec_ng_cost_emissions](ng_elec_price_emissions_calculations.png)
+![elec_ng_cost_emissions](/images/ng_elec_price_emissions_calculations.png)
 
 # Results #
 
