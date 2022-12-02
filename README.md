@@ -111,7 +111,7 @@ A simulation for each of the two building IDF files were simulated with each wea
 ## Energy Cost Comparison of Air-Source Heat Pumps and Natural Gas Furnace/Air Conditioner Combination ## 
 
 ![energy cost](/images/US_map_energy_cost.jpeg)
-![energy cost](/images/county_maps_Page_1.jpg)
+<!-- ![energy cost](/images/county_maps_Page_1.jpg) -->
 
 
 
@@ -120,7 +120,7 @@ A simulation for each of the two building IDF files were simulated with each wea
 ## Carbon Emission Comparison of Air-Source Heat Pumps and Natural Gas Furnace/Air Conditioner Combination ## 
 
 ![emissions](/images/US_map_emissions.jpeg)
-![energy cost](/images/county_maps_Page_2.jpg)
+<!-- ![energy cost](/images/county_maps_Page_2.jpg) -->
 
 ![heatmap](/images/heatmap_correlation.png)
 
