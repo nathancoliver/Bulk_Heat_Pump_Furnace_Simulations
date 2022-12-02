@@ -1,0 +1,2902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bldgdesc version="2.8.0.0">
+  <geometry house="main">
+    <floor_shape>
+      <coord x="-397.5" y="-20" />
+      <coord x="-417.5" y="-20" />
+      <coord x="-417.5" y="20" />
+      <coord x="-372.5" y="20" />
+      <coord x="-372.5" y="-10" />
+      <coord x="-397.5" y="-10" />
+    </floor_shape>
+    <units>
+      <unit id="1" num_bedrooms="3" num_bathrooms="2" />
+    </units>
+    <spaces>
+      <space id="1" finished="false" floor_area_foundation="0" spacetype="crawlspace" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="2" finished="false" floor_area_foundation="0" spacetype="unfinishedbasement" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="3" unit_id="1" finished="true" floor_area_foundation="0" spacetype="finishedbasement" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="4" finished="false" floor_area_foundation="0" spacetype="pierbeam" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="5" unit_id="1" finished="true" floor_area_foundation="0" spacetype="living" volume="20000">
+        <coord x="-22.5" y="-10" z="0" />
+        <floor_area_level>
+          <item>1150</item>
+          <item>1350</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="6" finished="false" floor_area_foundation="0" spacetype="garage" volume="4800">
+        <coord x="2.5" y="-20" z="0" />
+        <floor_area_level>
+          <item>400</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="7" finished="false" floor_area_foundation="0" spacetype="unfinishedattic" volume="5062.5">
+        <coord x="-22.5" y="-10" z="16" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>1350</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="8" unit_id="1" finished="true" floor_area_foundation="0" spacetype="finishedattic" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="9" finished="false" floor_area_foundation="0" spacetype="porchroof" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="10" finished="false" floor_area_foundation="0" spacetype="deck" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="11" finished="false" floor_area_foundation="0" spacetype="corridor" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="12" finished="false" floor_area_foundation="0" spacetype="ground" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+      <space id="13" finished="false" floor_area_foundation="0" spacetype="outside" volume="0">
+        <coord x="0" y="0" z="0" />
+        <floor_area_level>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+          <item>0</item>
+        </floor_area_level>
+      </space>
+    </spaces>
+    <walls>
+      <wall area="240" azimuth="270" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="1">
+        <vertices>
+          <coord x="-22.5" y="20" z="0" />
+          <coord x="-22.5" y="-10" z="0" />
+          <coord x="-22.5" y="-10" z="8" />
+          <coord x="-22.5" y="20" z="8" />
+        </vertices>
+        <window height="4" width="3">
+          <coord x="6.9333334" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="10.1333332" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="20.0666676" y="3" />
+        </window>
+      </wall>
+      <wall area="200" azimuth="180" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="1">
+        <vertices>
+          <coord x="-22.5" y="-10" z="0" />
+          <coord x="2.5" y="-10" z="0" />
+          <coord x="2.5" y="-10" z="8" />
+          <coord x="-22.5" y="-10" z="8" />
+        </vertices>
+        <window height="3.60913682" width="2.70752954">
+          <coord x="3.94008946" y="3.39086318" />
+        </window>
+        <window height="3.60913682" width="2.70752954">
+          <coord x="6.847619" y="3.39086318" />
+        </window>
+        <window height="3.60913682" width="2.70752954">
+          <coord x="13.4952383" y="3.39086318" />
+        </window>
+        <door height="7" width="2.857143">
+          <coord x="21.1428566" y="0" />
+        </door>
+      </wall>
+      <wall area="80" azimuth="90" foundation_ext_perimeter="0" space_ext_id="6" space_int_id="5" story="1">
+        <vertices>
+          <coord x="2.5" y="-10" z="0" />
+          <coord x="2.5" y="-0" z="0" />
+          <coord x="2.5" y="-0" z="8" />
+          <coord x="2.5" y="-10" z="8" />
+        </vertices>
+      </wall>
+      <wall area="160" azimuth="180" foundation_ext_perimeter="0" space_ext_id="6" space_int_id="5" story="1">
+        <vertices>
+          <coord x="2.5" y="-0" z="0" />
+          <coord x="22.5" y="-0" z="0" />
+          <coord x="22.5" y="-0" z="8" />
+          <coord x="2.5" y="-0" z="8" />
+        </vertices>
+      </wall>
+      <wall area="160" azimuth="90" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="1">
+        <vertices>
+          <coord x="22.5" y="-0" z="0" />
+          <coord x="22.5" y="20" z="0" />
+          <coord x="22.5" y="20" z="8" />
+          <coord x="22.5" y="-0" z="8" />
+        </vertices>
+        <window height="4" width="3">
+          <coord x="10.1" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="6.9" y="3" />
+        </window>
+      </wall>
+      <wall area="360" azimuth="0" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="1">
+        <vertices>
+          <coord x="22.5" y="20" z="0" />
+          <coord x="-22.5" y="20" z="0" />
+          <coord x="-22.5" y="20" z="8" />
+          <coord x="22.5" y="20" z="8" />
+        </vertices>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="10.6383982" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="7.591993" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="24.1232033" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="21.0767975" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="34.5616" y="3.20574117" />
+        </window>
+      </wall>
+      <wall area="80" azimuth="270" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="6" story="1">
+        <vertices>
+          <coord x="2.5" y="-10" z="0" />
+          <coord x="2.5" y="-20" z="0" />
+          <coord x="2.5" y="-20" z="8" />
+          <coord x="2.5" y="-10" z="8" />
+        </vertices>
+      </wall>
+      <wall area="160" azimuth="180" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="6" story="1">
+        <vertices>
+          <coord x="2.5" y="-20" z="0" />
+          <coord x="22.5" y="-20" z="0" />
+          <coord x="22.5" y="-20" z="8" />
+          <coord x="2.5" y="-20" z="8" />
+        </vertices>
+        <door height="7" width="7">
+          <coord x="2" y="0" />
+        </door>
+        <door height="7" width="7">
+          <coord x="11" y="0" />
+        </door>
+      </wall>
+      <wall area="160" azimuth="90" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="6" story="1">
+        <vertices>
+          <coord x="22.5" y="-20" z="0" />
+          <coord x="22.5" y="-0" z="0" />
+          <coord x="22.5" y="-0" z="8" />
+          <coord x="22.5" y="-20" z="8" />
+        </vertices>
+      </wall>
+      <wall area="240" azimuth="270" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="2">
+        <vertices>
+          <coord x="-22.5" y="20" z="8" />
+          <coord x="-22.5" y="-10" z="8" />
+          <coord x="-22.5" y="-10" z="16" />
+          <coord x="-22.5" y="20" z="16" />
+        </vertices>
+        <window height="4" width="3">
+          <coord x="6.9333334" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="10.1333332" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="20.0666676" y="3" />
+        </window>
+      </wall>
+      <wall area="200" azimuth="180" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="2">
+        <vertices>
+          <coord x="-22.5" y="-10" z="8" />
+          <coord x="2.5" y="-10" z="8" />
+          <coord x="2.5" y="-10" z="16" />
+          <coord x="-22.5" y="-10" z="16" />
+        </vertices>
+        <window height="3.48211765" width="2.61224151">
+          <coord x="4.71701145" y="3.51788235" />
+        </window>
+        <window height="3.48211765" width="2.61224151">
+          <coord x="7.529253" y="3.51788235" />
+        </window>
+        <window height="3.48211765" width="2.61224151">
+          <coord x="14.8585052" y="3.51788235" />
+        </window>
+        <window height="3.48211765" width="2.61224151">
+          <coord x="17.6707478" y="3.51788235" />
+        </window>
+      </wall>
+      <wall area="70" azimuth="180" foundation_ext_perimeter="0" space_ext_id="6" space_int_id="5" story="2">
+        <vertices>
+          <coord x="2.5" y="-10" z="8" />
+          <coord x="22.5" y="-10" z="8" />
+          <coord x="22.5" y="-10" z="9" />
+          <coord x="12.5" y="-10" z="14" />
+          <coord x="2.5" y="-10" z="9" />
+        </vertices>
+      </wall>
+      <wall area="240" azimuth="90" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="2">
+        <vertices>
+          <coord x="22.5" y="-10" z="8" />
+          <coord x="22.5" y="20" z="8" />
+          <coord x="22.5" y="20" z="16" />
+          <coord x="22.5" y="-10" z="16" />
+        </vertices>
+        <window height="4" width="3">
+          <coord x="10.1333332" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="6.9333334" y="3" />
+        </window>
+        <window height="4" width="3">
+          <coord x="20.0666676" y="3" />
+        </window>
+      </wall>
+      <wall area="360" azimuth="0" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="2">
+        <vertices>
+          <coord x="22.5" y="20" z="8" />
+          <coord x="-22.5" y="20" z="8" />
+          <coord x="-22.5" y="20" z="16" />
+          <coord x="22.5" y="20" z="16" />
+        </vertices>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="10.6383982" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="7.591993" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="24.1232033" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="21.0767975" y="3.20574117" />
+        </window>
+        <window height="3.79425883" width="2.84640574">
+          <coord x="34.5616" y="3.20574117" />
+        </window>
+      </wall>
+      <wall area="72" azimuth="180" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="6" story="2">
+        <vertices>
+          <coord x="0.5" y="-20" z="8" />
+          <coord x="24.5" y="-20" z="8" />
+          <coord x="12.5" y="-20" z="14" />
+        </vertices>
+      </wall>
+      <wall area="144.5" azimuth="90" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="7" story="3">
+        <vertices>
+          <coord x="22.5" y="-12" z="16" />
+          <coord x="22.5" y="22" z="16" />
+          <coord x="22.5" y="5" z="24.5" />
+        </vertices>
+      </wall>
+      <wall area="144.5" azimuth="270" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="7" story="3">
+        <vertices>
+          <coord x="-22.5" y="22" z="16" />
+          <coord x="-22.5" y="-12" z="16" />
+          <coord x="-22.5" y="5" z="24.5" />
+        </vertices>
+      </wall>
+      <wall area="90" azimuth="180" foundation_ext_perimeter="0" space_ext_id="13" space_int_id="5" story="2">
+        <vertices>
+          <coord x="22.5" y="-10" z="9" />
+          <coord x="22.5" y="-10" z="16" />
+          <coord x="2.5" y="-10" z="16" />
+          <coord x="2.5" y="-10" z="9" />
+          <coord x="12.5" y="-10" z="14" />
+        </vertices>
+        <window height="3.22448635" width="2.41896963">
+          <coord x="-19.4594841" y="2.77551365" />
+        </window>
+      </wall>
+    </walls>
+    <floors>
+      <floor area="1150" slab_ext_perimeter="150" slab_num_net_perimeter_corners="4" space_above_id="5" space_below_id="12" story="1">
+        <vertices>
+          <coord x="-22.5" y="20" z="0" />
+          <coord x="22.5" y="20" z="0" />
+          <coord x="22.5" y="-0" z="0" />
+          <coord x="2.5" y="-0" z="0" />
+          <coord x="2.5" y="-10" z="0" />
+          <coord x="-22.5" y="-10" z="0" />
+        </vertices>
+      </floor>
+      <floor area="400" slab_ext_perimeter="0" slab_num_net_perimeter_corners="0" space_above_id="6" space_below_id="12" story="1">
+        <vertices>
+          <coord x="2.5" y="-0" z="0" />
+          <coord x="22.5" y="-0" z="0" />
+          <coord x="22.5" y="-20" z="0" />
+          <coord x="2.5" y="-20" z="0" />
+        </vertices>
+      </floor>
+      <floor area="1150" slab_ext_perimeter="0" slab_num_net_perimeter_corners="0" space_above_id="5" space_below_id="5" story="2">
+        <vertices>
+          <coord x="-22.5" y="20" z="8" />
+          <coord x="22.5" y="20" z="8" />
+          <coord x="22.5" y="-0" z="8" />
+          <coord x="2.5" y="-0" z="8" />
+          <coord x="2.5" y="-10" z="8" />
+          <coord x="-22.5" y="-10" z="8" />
+        </vertices>
+      </floor>
+      <floor area="200" slab_ext_perimeter="0" slab_num_net_perimeter_corners="0" space_above_id="5" space_below_id="6" story="2">
+        <vertices>
+          <coord x="2.5" y="-0" z="8" />
+          <coord x="22.5" y="-0" z="8" />
+          <coord x="22.5" y="-10" z="8" />
+          <coord x="2.5" y="-10" z="8" />
+        </vertices>
+      </floor>
+      <floor area="1350" slab_ext_perimeter="0" slab_num_net_perimeter_corners="0" space_above_id="7" space_below_id="5" story="3">
+        <vertices>
+          <coord x="-22.5" y="20" z="16" />
+          <coord x="22.5" y="20" z="16" />
+          <coord x="22.5" y="-10" z="16" />
+          <coord x="-22.5" y="-10" z="16" />
+        </vertices>
+      </floor>
+    </floors>
+    <roofs>
+      <roof area="111.8034" azimuth="90" space_below_id="6" tilt="26.565052" structure="trusscantilever" roof_type="gable" story="2">
+        <vertices>
+          <coord x="22.5" y="-20" z="9" />
+          <coord x="22.5" y="-10" z="9" />
+          <coord x="12.5" y="-10" z="14" />
+          <coord x="12.5" y="-20" z="14" />
+        </vertices>
+      </roof>
+      <roof area="111.8034" azimuth="270" space_below_id="6" tilt="26.565052" structure="trusscantilever" roof_type="gable" story="2">
+        <vertices>
+          <coord x="2.5" y="-10" z="9" />
+          <coord x="2.5" y="-20" z="9" />
+          <coord x="12.5" y="-20" z="14" />
+          <coord x="12.5" y="-10" z="14" />
+        </vertices>
+      </roof>
+      <roof area="754.6729" azimuth="180" space_below_id="7" tilt="26.565052" structure="trusscantilever" roof_type="gable" story="3">
+        <vertices>
+          <coord x="-22.5" y="-10" z="17" />
+          <coord x="22.5" y="-10" z="17" />
+          <coord x="22.5" y="5" z="24.5" />
+          <coord x="-22.5" y="5" z="24.5" />
+        </vertices>
+      </roof>
+      <roof area="754.6729" azimuth="0" space_below_id="7" tilt="26.565052" structure="trusscantilever" roof_type="gable" story="3">
+        <vertices>
+          <coord x="22.5" y="20" z="17" />
+          <coord x="-22.5" y="20" z="17" />
+          <coord x="-22.5" y="5" z="24.5" />
+          <coord x="22.5" y="5" z="24.5" />
+        </vertices>
+      </roof>
+    </roofs>
+    <eaves>
+      <eave area="22.36068" azimuth="90" tilt="26.565052">
+        <vertices>
+          <coord x="24.5" y="-20" z="8" />
+          <coord x="24.5" y="-10" z="8" />
+          <coord x="22.5" y="-10" z="9" />
+          <coord x="22.5" y="-20" z="9" />
+        </vertices>
+      </eave>
+      <eave area="22.36068" azimuth="270" tilt="26.565052">
+        <vertices>
+          <coord x="0.5" y="-10" z="8" />
+          <coord x="0.5" y="-20" z="8" />
+          <coord x="2.5" y="-20" z="9" />
+          <coord x="2.5" y="-10" z="9" />
+        </vertices>
+      </eave>
+      <eave area="100.623062" azimuth="180" tilt="26.565052">
+        <vertices>
+          <coord x="-22.5" y="-12" z="16" />
+          <coord x="22.5" y="-12" z="16" />
+          <coord x="22.5" y="-10" z="17" />
+          <coord x="-22.5" y="-10" z="17" />
+        </vertices>
+      </eave>
+      <eave area="100.623062" azimuth="0" tilt="26.565052">
+        <vertices>
+          <coord x="22.5" y="22" z="16" />
+          <coord x="-22.5" y="22" z="16" />
+          <coord x="-22.5" y="20" z="17" />
+          <coord x="22.5" y="20" z="17" />
+        </vertices>
+      </eave>
+      <eave area="26.8328152" azimuth="90" tilt="26.565052">
+        <vertices>
+          <coord x="24.5" y="-22" z="8" />
+          <coord x="24.5" y="-20" z="8" />
+          <coord x="12.5" y="-20" z="14" />
+          <coord x="12.5" y="-22" z="14" />
+        </vertices>
+      </eave>
+      <eave area="26.8328152" azimuth="270" tilt="26.565052">
+        <vertices>
+          <coord x="0.5" y="-20" z="8" />
+          <coord x="0.5" y="-22" z="8" />
+          <coord x="12.5" y="-22" z="14" />
+          <coord x="12.5" y="-20" z="14" />
+        </vertices>
+      </eave>
+      <eave area="38.0131569" azimuth="0" tilt="26.565052">
+        <vertices>
+          <coord x="24.5" y="22" z="16" />
+          <coord x="22.5" y="22" z="16" />
+          <coord x="22.5" y="5" z="24.5" />
+          <coord x="24.5" y="5" z="24.5" />
+        </vertices>
+      </eave>
+      <eave area="38.0131569" azimuth="180" tilt="26.565052">
+        <vertices>
+          <coord x="22.5" y="-12" z="16" />
+          <coord x="24.5" y="-12" z="16" />
+          <coord x="24.5" y="5" z="24.5" />
+          <coord x="22.5" y="5" z="24.5" />
+        </vertices>
+      </eave>
+      <eave area="38.0131569" azimuth="180" tilt="26.565052">
+        <vertices>
+          <coord x="-24.5" y="-12" z="16" />
+          <coord x="-22.5" y="-12" z="16" />
+          <coord x="-22.5" y="5" z="24.5" />
+          <coord x="-24.5" y="5" z="24.5" />
+        </vertices>
+      </eave>
+      <eave area="38.0131569" azimuth="0" tilt="26.565052">
+        <vertices>
+          <coord x="-22.5" y="22" z="16" />
+          <coord x="-24.5" y="22" z="16" />
+          <coord x="-24.5" y="5" z="24.5" />
+          <coord x="-22.5" y="5" z="24.5" />
+        </vertices>
+      </eave>
+    </eaves>
+  </geometry>
+  <site>
+    <EPWfilename>USA_CO_Denver.Intl.AP.725650_TMY3.epw</EPWfilename>
+    <weather>
+      <header>
+        <City>Denver Intl Ap</City>
+        <State>CO</State>
+        <Country>USA</Country>
+        <Station>725650</Station>
+        <Latitude>39.83</Latitude>
+        <Longitude>-104.65</Longitude>
+        <Altitude>5413.38574</Altitude>
+        <Timezone>-7</Timezone>
+        <DataSource>TMY3</DataSource>
+        <WSF>0.59</WSF>
+      </header>
+      <zones>
+        <IECC>5B</IECC>
+        <BA>Cold</BA>
+      </zones>
+      <design>
+        <HeatingDrybulb>6.8</HeatingDrybulb>
+        <HeatingWindspeed>12</HeatingWindspeed>
+        <CoolingDrybulb>91.76</CoolingDrybulb>
+        <CoolingWetbulb>60.08</CoolingWetbulb>
+        <CoolingHumidityRatio>0.0061</CoolingHumidityRatio>
+        <CoolingWindspeed>4.2</CoolingWindspeed>
+        <DehumidDrybulb>67.28</DehumidDrybulb>
+        <DehumidHumidityRatio>0.0123</DehumidHumidityRatio>
+        <CoolingDirectNormal>985</CoolingDirectNormal>
+        <CoolingDiffuseHorizontal>84</CoolingDiffuseHorizontal>
+        <DailyTemperatureRange>27.36</DailyTemperatureRange>
+      </design>
+      <data>
+        <AnnualClearness>0.5765</AnnualClearness>
+        <SummerClearness>0.5977</SummerClearness>
+        <WinterClearness>0.5462</WinterClearness>
+        <AnnualAvgDrybulb>51.58</AnnualAvgDrybulb>
+        <AnnualMinDrybulb>-2.92</AnnualMinDrybulb>
+        <AnnualMaxDrybulb>104</AnnualMaxDrybulb>
+        <AnnualAvgWindspeed>3.9</AnnualAvgWindspeed>
+        <CDD50F>3072</CDD50F>
+        <CDD65F>884</CDD65F>
+        <HDD50F>2497</HDD50F>
+        <HDD64F>5534</HDD64F>
+        <HDD65F>5784</HDD65F>
+        <HDD66F>6038</HDD66F>
+        <MonthlyAvgDrybulbs>
+          <month>33.42</month>
+          <month>31.9</month>
+          <month>43.03</month>
+          <month>42.49</month>
+          <month>59.88</month>
+          <month>73.58</month>
+          <month>72.08</month>
+          <month>72.7</month>
+          <month>66.49</month>
+          <month>50.08</month>
+          <month>37.22</month>
+          <month>34.58</month>
+        </MonthlyAvgDrybulbs>
+        <MonthlyAvgDailyHighDrybulbs>
+          <month>47.41</month>
+          <month>46.59</month>
+          <month>55.15</month>
+          <month>53.71</month>
+          <month>72.8</month>
+          <month>88.68</month>
+          <month>86.19</month>
+          <month>85.87</month>
+          <month>82.08</month>
+          <month>63.18</month>
+          <month>48.73</month>
+          <month>48.88</month>
+        </MonthlyAvgDailyHighDrybulbs>
+        <MonthlyAvgDailyLowDrybulbs>
+          <month>19.35</month>
+          <month>19.86</month>
+          <month>30.32</month>
+          <month>31.11</month>
+          <month>47.42</month>
+          <month>57.9</month>
+          <month>59.06</month>
+          <month>60.96</month>
+          <month>52.35</month>
+          <month>38.42</month>
+          <month>27</month>
+          <month>23.03</month>
+        </MonthlyAvgDailyLowDrybulbs>
+        <DailyAvgDrybulbs>
+          <day>22.05</day>
+          <day>33.58</day>
+          <day>29.1</day>
+          <day>30.86</day>
+          <day>45.92</day>
+          <day>29.37</day>
+          <day>29.7</day>
+          <day>34.96</day>
+          <day>31.51</day>
+          <day>30.58</day>
+          <day>37.03</day>
+          <day>34.28</day>
+          <day>42.07</day>
+          <day>45.73</day>
+          <day>39.24</day>
+          <day>33.18</day>
+          <day>24.08</day>
+          <day>34.33</day>
+          <day>46.97</day>
+          <day>30.51</day>
+          <day>38.2</day>
+          <day>41.98</day>
+          <day>43</day>
+          <day>45.19</day>
+          <day>39.26</day>
+          <day>23.9</day>
+          <day>32.96</day>
+          <day>22.37</day>
+          <day>16.03</day>
+          <day>21.51</day>
+          <day>26.55</day>
+          <day>21.28</day>
+          <day>21.63</day>
+          <day>23.7</day>
+          <day>24.77</day>
+          <day>31.36</day>
+          <day>34.14</day>
+          <day>24.57</day>
+          <day>13.37</day>
+          <day>23.7</day>
+          <day>37.38</day>
+          <day>28.84</day>
+          <day>22.24</day>
+          <day>35.88</day>
+          <day>39.21</day>
+          <day>38.51</day>
+          <day>46.45</day>
+          <day>46.54</day>
+          <day>47.94</day>
+          <day>36</day>
+          <day>35.01</day>
+          <day>28.19</day>
+          <day>22.36</day>
+          <day>28.71</day>
+          <day>39.8</day>
+          <day>21.13</day>
+          <day>37.37</day>
+          <day>44.62</day>
+          <day>38.52</day>
+          <day>44.26</day>
+          <day>31.96</day>
+          <day>50.8</day>
+          <day>57.96</day>
+          <day>43.6</day>
+          <day>33.25</day>
+          <day>32.22</day>
+          <day>37.01</day>
+          <day>42.21</day>
+          <day>55.08</day>
+          <day>50.63</day>
+          <day>38.52</day>
+          <day>38.16</day>
+          <day>34.76</day>
+          <day>33.97</day>
+          <day>31</day>
+          <day>40.45</day>
+          <day>45.7</day>
+          <day>47.43</day>
+          <day>49.53</day>
+          <day>42.96</day>
+          <day>42.94</day>
+          <day>47.18</day>
+          <day>52.6</day>
+          <day>54.68</day>
+          <day>50.83</day>
+          <day>39.79</day>
+          <day>40.67</day>
+          <day>34.49</day>
+          <day>39.03</day>
+          <day>50.12</day>
+          <day>33.61</day>
+          <day>23.3</day>
+          <day>26.88</day>
+          <day>36.52</day>
+          <day>39.56</day>
+          <day>49.53</day>
+          <day>55.05</day>
+          <day>50.07</day>
+          <day>45.47</day>
+          <day>41.05</day>
+          <day>40.93</day>
+          <day>50.89</day>
+          <day>50.38</day>
+          <day>36.27</day>
+          <day>29.08</day>
+          <day>28.14</day>
+          <day>36.41</day>
+          <day>55.02</day>
+          <day>58.53</day>
+          <day>58.02</day>
+          <day>49.5</day>
+          <day>34.73</day>
+          <day>32.13</day>
+          <day>38.31</day>
+          <day>38.95</day>
+          <day>43.66</day>
+          <day>54.16</day>
+          <day>49.95</day>
+          <day>45.96</day>
+          <day>42.52</day>
+          <day>50.18</day>
+          <day>45.42</day>
+          <day>46.84</day>
+          <day>39.94</day>
+          <day>46.32</day>
+          <day>55.47</day>
+          <day>56.15</day>
+          <day>64.58</day>
+          <day>69.07</day>
+          <day>72.08</day>
+          <day>72.26</day>
+          <day>60.16</day>
+          <day>63.03</day>
+          <day>68.06</day>
+          <day>55.72</day>
+          <day>51.12</day>
+          <day>57.31</day>
+          <day>65.28</day>
+          <day>69.97</day>
+          <day>66.37</day>
+          <day>65.91</day>
+          <day>61.61</day>
+          <day>56.38</day>
+          <day>58.11</day>
+          <day>63</day>
+          <day>62.5</day>
+          <day>62.21</day>
+          <day>63.33</day>
+          <day>61.99</day>
+          <day>64.32</day>
+          <day>61.51</day>
+          <day>69.6</day>
+          <day>65.76</day>
+          <day>67.84</day>
+          <day>73.56</day>
+          <day>74.05</day>
+          <day>77.97</day>
+          <day>75.31</day>
+          <day>68.66</day>
+          <day>63.42</day>
+          <day>66.93</day>
+          <day>72.01</day>
+          <day>77.79</day>
+          <day>79.8</day>
+          <day>83.34</day>
+          <day>71.38</day>
+          <day>70.3</day>
+          <day>70.53</day>
+          <day>70.41</day>
+          <day>74.07</day>
+          <day>69.67</day>
+          <day>69.33</day>
+          <day>68.38</day>
+          <day>71.17</day>
+          <day>76.71</day>
+          <day>80.28</day>
+          <day>82.81</day>
+          <day>79.39</day>
+          <day>76.42</day>
+          <day>78.15</day>
+          <day>82.23</day>
+          <day>72.88</day>
+          <day>70.49</day>
+          <day>70.38</day>
+          <day>76.08</day>
+          <day>81.39</day>
+          <day>78.61</day>
+          <day>72.21</day>
+          <day>70.65</day>
+          <day>70.41</day>
+          <day>71.25</day>
+          <day>71.35</day>
+          <day>67.93</day>
+          <day>70.27</day>
+          <day>75.67</day>
+          <day>77.29</day>
+          <day>77.66</day>
+          <day>79.92</day>
+          <day>75.73</day>
+          <day>72.25</day>
+          <day>71.41</day>
+          <day>72.97</day>
+          <day>65.52</day>
+          <day>58.68</day>
+          <day>61.86</day>
+          <day>62.53</day>
+          <day>64.56</day>
+          <day>70.14</day>
+          <day>75.57</day>
+          <day>77.25</day>
+          <day>75.79</day>
+          <day>75.78</day>
+          <day>71.27</day>
+          <day>71.97</day>
+          <day>77.01</day>
+          <day>79.05</day>
+          <day>82.06</day>
+          <day>75.38</day>
+          <day>77.33</day>
+          <day>76.67</day>
+          <day>62.45</day>
+          <day>64.35</day>
+          <day>70.17</day>
+          <day>73.67</day>
+          <day>68.54</day>
+          <day>67.99</day>
+          <day>67.12</day>
+          <day>66.12</day>
+          <day>69.61</day>
+          <day>74.89</day>
+          <day>77.99</day>
+          <day>75.14</day>
+          <day>75.76</day>
+          <day>71.13</day>
+          <day>70</day>
+          <day>78.43</day>
+          <day>70.98</day>
+          <day>75.97</day>
+          <day>77.93</day>
+          <day>74.8</day>
+          <day>75.25</day>
+          <day>67</day>
+          <day>67.71</day>
+          <day>67.36</day>
+          <day>71.88</day>
+          <day>73.59</day>
+          <day>76.36</day>
+          <day>74.55</day>
+          <day>66.79</day>
+          <day>72.16</day>
+          <day>75.51</day>
+          <day>74.85</day>
+          <day>76.04</day>
+          <day>73.87</day>
+          <day>69.8</day>
+          <day>55.58</day>
+          <day>55.52</day>
+          <day>61.74</day>
+          <day>67</day>
+          <day>68.22</day>
+          <day>64.13</day>
+          <day>64.18</day>
+          <day>70.38</day>
+          <day>71.82</day>
+          <day>60.64</day>
+          <day>65.12</day>
+          <day>58.77</day>
+          <day>56.4</day>
+          <day>61.51</day>
+          <day>68.28</day>
+          <day>48.72</day>
+          <day>55.68</day>
+          <day>68.31</day>
+          <day>70.12</day>
+          <day>61.71</day>
+          <day>58.35</day>
+          <day>53.99</day>
+          <day>38.26</day>
+          <day>32.26</day>
+          <day>37.67</day>
+          <day>40.76</day>
+          <day>46.54</day>
+          <day>54.8</day>
+          <day>62.34</day>
+          <day>56.24</day>
+          <day>47.83</day>
+          <day>47.49</day>
+          <day>47.88</day>
+          <day>49.3</day>
+          <day>51.16</day>
+          <day>58.27</day>
+          <day>58.8</day>
+          <day>52.22</day>
+          <day>56.21</day>
+          <day>41.63</day>
+          <day>46.08</day>
+          <day>49.49</day>
+          <day>49.58</day>
+          <day>48.2</day>
+          <day>48.25</day>
+          <day>50.26</day>
+          <day>50.64</day>
+          <day>46.87</day>
+          <day>39.24</day>
+          <day>20.29</day>
+          <day>23.6</day>
+          <day>25.3</day>
+          <day>29.08</day>
+          <day>37.17</day>
+          <day>44.75</day>
+          <day>51.05</day>
+          <day>49.8</day>
+          <day>45.53</day>
+          <day>38.97</day>
+          <day>33.91</day>
+          <day>37.82</day>
+          <day>46</day>
+          <day>36.81</day>
+          <day>33.84</day>
+          <day>40.54</day>
+          <day>47.24</day>
+          <day>40.95</day>
+          <day>44.8</day>
+          <day>45.91</day>
+          <day>44.33</day>
+          <day>52.12</day>
+          <day>38.54</day>
+          <day>23.55</day>
+          <day>21.03</day>
+          <day>16.12</day>
+          <day>30.55</day>
+          <day>40.54</day>
+          <day>42.58</day>
+          <day>33.84</day>
+          <day>48.98</day>
+          <day>44.1</day>
+          <day>43.51</day>
+          <day>39.7</day>
+          <day>28.25</day>
+          <day>28.04</day>
+          <day>33.26</day>
+          <day>24.4</day>
+          <day>25.21</day>
+          <day>24.58</day>
+          <day>29.61</day>
+          <day>31.02</day>
+          <day>30.96</day>
+          <day>30.16</day>
+          <day>30.55</day>
+          <day>37.95</day>
+          <day>38.28</day>
+          <day>42.34</day>
+          <day>39.88</day>
+          <day>36.75</day>
+          <day>41.16</day>
+          <day>39.19</day>
+          <day>34.47</day>
+          <day>41.81</day>
+          <day>43.41</day>
+          <day>41.82</day>
+          <day>37.39</day>
+          <day>34.27</day>
+          <day>33.49</day>
+          <day>25.14</day>
+          <day>12.4</day>
+        </DailyAvgDrybulbs>
+        <DailyMaxDrybulbs>
+          <day>39.92</day>
+          <day>50</day>
+          <day>44.06</day>
+          <day>51.98</day>
+          <day>59</day>
+          <day>35.06</day>
+          <day>42.08</day>
+          <day>51.08</day>
+          <day>39.92</day>
+          <day>44.96</day>
+          <day>53.96</day>
+          <day>48.02</day>
+          <day>50</day>
+          <day>55.94</day>
+          <day>55.94</day>
+          <day>44.06</day>
+          <day>35.06</day>
+          <day>55.94</day>
+          <day>60.08</day>
+          <day>44.96</day>
+          <day>60.08</day>
+          <day>60.98</day>
+          <day>62.06</day>
+          <day>60.08</day>
+          <day>53.06</day>
+          <day>35.96</day>
+          <day>41.54</day>
+          <day>28.94</day>
+          <day>28.04</day>
+          <day>35.96</day>
+          <day>41</day>
+          <day>33.98</day>
+          <day>46.04</day>
+          <day>41</day>
+          <day>41</day>
+          <day>46.94</day>
+          <day>48.92</day>
+          <day>42.98</day>
+          <day>33.08</day>
+          <day>44.06</day>
+          <day>46.04</day>
+          <day>46.94</day>
+          <day>33.08</day>
+          <day>55.04</day>
+          <day>53.06</day>
+          <day>57.02</day>
+          <day>64.94</day>
+          <day>62.06</day>
+          <day>57.92</day>
+          <day>44.96</day>
+          <day>44.06</day>
+          <day>33.08</day>
+          <day>26.06</day>
+          <day>42.98</day>
+          <day>53.96</day>
+          <day>35.06</day>
+          <day>60.08</day>
+          <day>60.08</day>
+          <day>50</day>
+          <day>59</day>
+          <day>44.06</day>
+          <day>62.96</day>
+          <day>66.92</day>
+          <day>55.94</day>
+          <day>41</day>
+          <day>41</day>
+          <day>46.04</day>
+          <day>59</day>
+          <day>66.92</day>
+          <day>64.94</day>
+          <day>48.92</day>
+          <day>48.92</day>
+          <day>46.04</day>
+          <day>44.06</day>
+          <day>37.94</day>
+          <day>55.94</day>
+          <day>62.96</day>
+          <day>60.08</day>
+          <day>57.92</day>
+          <day>57.02</day>
+          <day>53.06</day>
+          <day>60.08</day>
+          <day>69.08</day>
+          <day>69.98</day>
+          <day>62.96</day>
+          <day>51.98</day>
+          <day>51.08</day>
+          <day>42.98</day>
+          <day>53.96</day>
+          <day>66.92</day>
+          <day>40.82</day>
+          <day>26.06</day>
+          <day>37.94</day>
+          <day>51.08</day>
+          <day>51.98</day>
+          <day>66.92</day>
+          <day>71.06</day>
+          <day>64.04</day>
+          <day>62.06</day>
+          <day>51.98</day>
+          <day>60.08</day>
+          <day>69.08</day>
+          <day>64.94</day>
+          <day>44.96</day>
+          <day>35.06</day>
+          <day>35.06</day>
+          <day>53.96</day>
+          <day>68</day>
+          <day>73.04</day>
+          <day>69.98</day>
+          <day>60.08</day>
+          <day>39.02</day>
+          <day>35.06</day>
+          <day>46.94</day>
+          <day>48.92</day>
+          <day>53.96</day>
+          <day>71.06</day>
+          <day>60.98</day>
+          <day>51.08</day>
+          <day>46.04</day>
+          <day>66.92</day>
+          <day>55.04</day>
+          <day>60.98</day>
+          <day>46.94</day>
+          <day>57.92</day>
+          <day>68</day>
+          <day>68</day>
+          <day>80.96</day>
+          <day>82.04</day>
+          <day>86</day>
+          <day>84.02</day>
+          <day>71.06</day>
+          <day>80.96</day>
+          <day>82.94</day>
+          <day>64.94</day>
+          <day>62.06</day>
+          <day>66.92</day>
+          <day>80.96</day>
+          <day>87.08</day>
+          <day>77</day>
+          <day>80.96</day>
+          <day>77</day>
+          <day>62.96</day>
+          <day>68</day>
+          <day>77</day>
+          <day>75.02</day>
+          <day>78.08</day>
+          <day>78.08</day>
+          <day>75.92</day>
+          <day>82.04</day>
+          <day>71.06</day>
+          <day>84.92</day>
+          <day>78.08</day>
+          <day>84.02</day>
+          <day>89.96</day>
+          <day>87.08</day>
+          <day>93.02</day>
+          <day>89.96</day>
+          <day>82.94</day>
+          <day>78.08</day>
+          <day>80.06</day>
+          <day>87.08</day>
+          <day>93.02</day>
+          <day>96.08</day>
+          <day>98.06</day>
+          <day>91.04</day>
+          <day>86</day>
+          <day>80.96</day>
+          <day>87.98</day>
+          <day>89.06</day>
+          <day>84.02</day>
+          <day>80.96</day>
+          <day>78.08</day>
+          <day>89.96</day>
+          <day>91.94</day>
+          <day>95</day>
+          <day>104</day>
+          <day>93.92</day>
+          <day>93.92</day>
+          <day>93.02</day>
+          <day>98.06</day>
+          <day>86</day>
+          <day>84.92</day>
+          <day>84.02</day>
+          <day>91.04</day>
+          <day>96.98</day>
+          <day>95</day>
+          <day>80.96</day>
+          <day>84.02</day>
+          <day>84.02</day>
+          <day>86</day>
+          <day>82.04</day>
+          <day>84.92</day>
+          <day>82.94</day>
+          <day>89.96</day>
+          <day>96.98</day>
+          <day>93.92</day>
+          <day>96.98</day>
+          <day>91.94</day>
+          <day>89.06</day>
+          <day>87.98</day>
+          <day>86</day>
+          <day>82.94</day>
+          <day>62.06</day>
+          <day>68</day>
+          <day>77</day>
+          <day>78.98</day>
+          <day>82.04</day>
+          <day>89.06</day>
+          <day>91.94</day>
+          <day>91.04</day>
+          <day>93.02</day>
+          <day>84.2</day>
+          <day>87.08</day>
+          <day>91.04</day>
+          <day>89.96</day>
+          <day>93.02</day>
+          <day>91.94</day>
+          <day>93.02</day>
+          <day>91.94</day>
+          <day>66.02</day>
+          <day>78.98</day>
+          <day>84.92</day>
+          <day>86</day>
+          <day>82.94</day>
+          <day>77</day>
+          <day>78.08</day>
+          <day>78.98</day>
+          <day>82.94</day>
+          <day>89.96</day>
+          <day>93.92</day>
+          <day>87.98</day>
+          <day>87.98</day>
+          <day>82.04</day>
+          <day>84.02</day>
+          <day>89.96</day>
+          <day>82.04</day>
+          <day>91.94</day>
+          <day>93.02</day>
+          <day>89.06</day>
+          <day>91.04</day>
+          <day>82.04</day>
+          <day>78.98</day>
+          <day>84.92</day>
+          <day>89.96</day>
+          <day>93.02</day>
+          <day>87.98</day>
+          <day>89.06</day>
+          <day>77</day>
+          <day>89.06</day>
+          <day>91.04</day>
+          <day>89.06</day>
+          <day>89.06</day>
+          <day>89.06</day>
+          <day>87.08</day>
+          <day>68</day>
+          <day>71.06</day>
+          <day>77</day>
+          <day>82.04</day>
+          <day>87.08</day>
+          <day>82.04</day>
+          <day>82.04</day>
+          <day>89.06</day>
+          <day>84.92</day>
+          <day>73.04</day>
+          <day>82.94</day>
+          <day>69.98</day>
+          <day>71.96</day>
+          <day>80.96</day>
+          <day>87.08</day>
+          <day>59</day>
+          <day>73.94</day>
+          <day>84.02</day>
+          <day>82.94</day>
+          <day>80.96</day>
+          <day>75.02</day>
+          <day>62.06</day>
+          <day>48.02</day>
+          <day>35.06</day>
+          <day>42.08</day>
+          <day>51.08</day>
+          <day>64.04</day>
+          <day>73.94</day>
+          <day>80.06</day>
+          <day>71.96</day>
+          <day>62.06</day>
+          <day>59</day>
+          <day>66.02</day>
+          <day>64.94</day>
+          <day>68</day>
+          <day>78.08</day>
+          <day>73.04</day>
+          <day>68</day>
+          <day>73.04</day>
+          <day>48.92</day>
+          <day>57.02</day>
+          <day>60.08</day>
+          <day>62.06</day>
+          <day>62.96</day>
+          <day>60.98</day>
+          <day>59</day>
+          <day>64.04</day>
+          <day>60.08</day>
+          <day>44.06</day>
+          <day>26.06</day>
+          <day>26.96</day>
+          <day>35.96</day>
+          <day>37.04</day>
+          <day>50</day>
+          <day>60.08</day>
+          <day>64.04</day>
+          <day>64.04</day>
+          <day>57.92</day>
+          <day>48.02</day>
+          <day>42.08</day>
+          <day>51.98</day>
+          <day>55.94</day>
+          <day>44.96</day>
+          <day>42.08</day>
+          <day>57.02</day>
+          <day>59</day>
+          <day>51.98</day>
+          <day>55.94</day>
+          <day>59</day>
+          <day>59</day>
+          <day>69.98</day>
+          <day>51.08</day>
+          <day>28.94</day>
+          <day>28.94</day>
+          <day>28.94</day>
+          <day>44.06</day>
+          <day>59</day>
+          <day>55.94</day>
+          <day>46.04</day>
+          <day>69.98</day>
+          <day>62.96</day>
+          <day>59</day>
+          <day>60.08</day>
+          <day>37.94</day>
+          <day>30.92</day>
+          <day>50</day>
+          <day>28.04</day>
+          <day>39.92</day>
+          <day>39.02</day>
+          <day>46.94</day>
+          <day>48.02</day>
+          <day>44.06</day>
+          <day>44.06</day>
+          <day>42.98</day>
+          <day>53.06</day>
+          <day>55.04</day>
+          <day>64.04</day>
+          <day>48.02</day>
+          <day>55.04</day>
+          <day>60.98</day>
+          <day>53.96</day>
+          <day>46.04</day>
+          <day>59</day>
+          <day>59</day>
+          <day>57.02</day>
+          <day>53.96</day>
+          <day>51.08</day>
+          <day>44.06</day>
+          <day>32</day>
+          <day>19.04</day>
+        </DailyMaxDrybulbs>
+        <DailyMinDrybulbs>
+          <day>-0.4</day>
+          <day>19.94</day>
+          <day>9.68</day>
+          <day>2.84</day>
+          <day>32</day>
+          <day>15.98</day>
+          <day>6.98</day>
+          <day>24.08</day>
+          <day>23</day>
+          <day>19.94</day>
+          <day>21.02</day>
+          <day>21.02</day>
+          <day>33.08</day>
+          <day>30.02</day>
+          <day>26.96</day>
+          <day>28.04</day>
+          <day>10.94</day>
+          <day>10.04</day>
+          <day>21.92</day>
+          <day>21.92</day>
+          <day>19.94</day>
+          <day>30.02</day>
+          <day>26.96</day>
+          <day>33.98</day>
+          <day>26.06</day>
+          <day>17.96</day>
+          <day>21.92</day>
+          <day>14</day>
+          <day>3.92</day>
+          <day>10.04</day>
+          <day>15.98</day>
+          <day>14</day>
+          <day>8.06</day>
+          <day>10.04</day>
+          <day>6.98</day>
+          <day>15.98</day>
+          <day>24.08</day>
+          <day>19.94</day>
+          <day>3.92</day>
+          <day>3.92</day>
+          <day>28.94</day>
+          <day>21.02</day>
+          <day>12.02</day>
+          <day>19.04</day>
+          <day>30.92</day>
+          <day>21.92</day>
+          <day>33.08</day>
+          <day>30.92</day>
+          <day>37.04</day>
+          <day>28.04</day>
+          <day>24.98</day>
+          <day>23</day>
+          <day>17.96</day>
+          <day>10.04</day>
+          <day>14</day>
+          <day>12.02</day>
+          <day>19.04</day>
+          <day>32</day>
+          <day>33.08</day>
+          <day>24.98</day>
+          <day>21.92</day>
+          <day>32</day>
+          <day>44.96</day>
+          <day>33.08</day>
+          <day>26.96</day>
+          <day>24.08</day>
+          <day>24.08</day>
+          <day>24.08</day>
+          <day>46.04</day>
+          <day>37.04</day>
+          <day>30.02</day>
+          <day>26.06</day>
+          <day>24.98</day>
+          <day>28.04</day>
+          <day>26.96</day>
+          <day>21.02</day>
+          <day>28.04</day>
+          <day>33.08</day>
+          <day>37.04</day>
+          <day>30.02</day>
+          <day>33.08</day>
+          <day>33.98</day>
+          <day>33.08</day>
+          <day>39.02</day>
+          <day>33.08</day>
+          <day>30.92</day>
+          <day>28.04</day>
+          <day>26.96</day>
+          <day>24.08</day>
+          <day>33.08</day>
+          <day>24.98</day>
+          <day>19.94</day>
+          <day>15.98</day>
+          <day>23</day>
+          <day>32</day>
+          <day>32</day>
+          <day>37.94</day>
+          <day>35.06</day>
+          <day>28.94</day>
+          <day>24.98</day>
+          <day>17.06</day>
+          <day>30.92</day>
+          <day>37.94</day>
+          <day>30.02</day>
+          <day>21.92</day>
+          <day>21.92</day>
+          <day>19.04</day>
+          <day>39.02</day>
+          <day>44.06</day>
+          <day>44.96</day>
+          <day>39.92</day>
+          <day>32</day>
+          <day>30.02</day>
+          <day>30.02</day>
+          <day>33.08</day>
+          <day>30.02</day>
+          <day>39.02</day>
+          <day>39.02</day>
+          <day>42.08</day>
+          <day>36.5</day>
+          <day>32</day>
+          <day>37.94</day>
+          <day>33.08</day>
+          <day>33.98</day>
+          <day>33.98</day>
+          <day>39.92</day>
+          <day>42.98</day>
+          <day>42.98</day>
+          <day>55.04</day>
+          <day>57.02</day>
+          <day>59</day>
+          <day>48.02</day>
+          <day>39.92</day>
+          <day>44.06</day>
+          <day>46.94</day>
+          <day>44.96</day>
+          <day>46.04</day>
+          <day>53.96</day>
+          <day>55.04</day>
+          <day>57.92</day>
+          <day>55.94</day>
+          <day>53.06</day>
+          <day>51.98</day>
+          <day>50</day>
+          <day>46.04</day>
+          <day>50</day>
+          <day>53.06</day>
+          <day>53.06</day>
+          <day>48.02</day>
+          <day>48.02</day>
+          <day>55.94</day>
+          <day>55.04</day>
+          <day>57.92</day>
+          <day>55.94</day>
+          <day>55.04</day>
+          <day>53.96</day>
+          <day>66.02</day>
+          <day>57.92</day>
+          <day>51.98</day>
+          <day>44.96</day>
+          <day>50</day>
+          <day>53.06</day>
+          <day>60.98</day>
+          <day>59</day>
+          <day>62.96</day>
+          <day>53.06</day>
+          <day>60.08</day>
+          <day>57.92</day>
+          <day>62.06</day>
+          <day>62.96</day>
+          <day>59</day>
+          <day>60.08</day>
+          <day>62.06</day>
+          <day>53.96</day>
+          <day>57.02</day>
+          <day>62.96</day>
+          <day>57.02</day>
+          <day>60.08</day>
+          <day>57.02</day>
+          <day>62.96</day>
+          <day>64.04</day>
+          <day>57.02</day>
+          <day>57.02</day>
+          <day>57.92</day>
+          <day>57.02</day>
+          <day>64.94</day>
+          <day>62.06</day>
+          <day>64.94</day>
+          <day>62.06</day>
+          <day>60.08</day>
+          <day>57.92</day>
+          <day>60.98</day>
+          <day>59</day>
+          <day>53.06</day>
+          <day>57.92</day>
+          <day>57.02</day>
+          <day>57.92</day>
+          <day>64.04</day>
+          <day>62.96</day>
+          <day>62.06</day>
+          <day>59</day>
+          <day>62.06</day>
+          <day>57.02</day>
+          <day>55.94</day>
+          <day>57.02</day>
+          <day>53.96</day>
+          <day>53.06</day>
+          <day>53.96</day>
+          <day>57.92</day>
+          <day>62.06</day>
+          <day>62.96</day>
+          <day>60.08</day>
+          <day>64.04</day>
+          <day>62.96</day>
+          <day>60.08</day>
+          <day>66.02</day>
+          <day>69.98</day>
+          <day>66.02</day>
+          <day>62.06</day>
+          <day>64.04</day>
+          <day>55.04</day>
+          <day>55.94</day>
+          <day>55.04</day>
+          <day>60.98</day>
+          <day>59</day>
+          <day>62.06</day>
+          <day>60.98</day>
+          <day>55.04</day>
+          <day>53.06</day>
+          <day>59</day>
+          <day>66.92</day>
+          <day>64.04</day>
+          <day>64.04</day>
+          <day>64.04</day>
+          <day>57.02</day>
+          <day>62.06</day>
+          <day>59</day>
+          <day>60.08</day>
+          <day>62.06</day>
+          <day>62.96</day>
+          <day>62.06</day>
+          <day>55.04</day>
+          <day>59</day>
+          <day>48.92</day>
+          <day>55.94</day>
+          <day>59</day>
+          <day>62.06</day>
+          <day>60.98</day>
+          <day>57.02</day>
+          <day>55.04</day>
+          <day>57.02</day>
+          <day>60.98</day>
+          <day>66.92</day>
+          <day>59</day>
+          <day>51.08</day>
+          <day>44.06</day>
+          <day>46.94</day>
+          <day>46.04</day>
+          <day>50</day>
+          <day>48.02</day>
+          <day>50</day>
+          <day>50</day>
+          <day>53.96</day>
+          <day>57.02</day>
+          <day>51.08</day>
+          <day>48.92</day>
+          <day>51.98</day>
+          <day>46.4</day>
+          <day>42.08</day>
+          <day>57.02</day>
+          <day>39.02</day>
+          <day>42.98</day>
+          <day>51.08</day>
+          <day>57.92</day>
+          <day>41</day>
+          <day>50</day>
+          <day>44.6</day>
+          <day>30.92</day>
+          <day>30.02</day>
+          <day>33.98</day>
+          <day>33.98</day>
+          <day>32</day>
+          <day>33.98</day>
+          <day>41</day>
+          <day>42.08</day>
+          <day>35.96</day>
+          <day>30.92</day>
+          <day>30.02</day>
+          <day>37.94</day>
+          <day>37.04</day>
+          <day>44.96</day>
+          <day>48.02</day>
+          <day>37.94</day>
+          <day>39.02</day>
+          <day>39.02</day>
+          <day>39.02</day>
+          <day>39.02</day>
+          <day>37.94</day>
+          <day>35.96</day>
+          <day>37.04</day>
+          <day>44.96</day>
+          <day>41</day>
+          <day>35.06</day>
+          <day>28.58</day>
+          <day>17.06</day>
+          <day>21.02</day>
+          <day>17.96</day>
+          <day>21.02</day>
+          <day>23</day>
+          <day>37.04</day>
+          <day>41</day>
+          <day>35.96</day>
+          <day>37.94</day>
+          <day>30.02</day>
+          <day>24.08</day>
+          <day>23</day>
+          <day>37.04</day>
+          <day>32</day>
+          <day>21.92</day>
+          <day>26.96</day>
+          <day>37.04</day>
+          <day>28.04</day>
+          <day>37.94</day>
+          <day>33.98</day>
+          <day>33.08</day>
+          <day>35.96</day>
+          <day>28.04</day>
+          <day>21.02</day>
+          <day>12.92</day>
+          <day>3.02</day>
+          <day>21.02</day>
+          <day>23</day>
+          <day>26.96</day>
+          <day>21.02</day>
+          <day>35.96</day>
+          <day>28.04</day>
+          <day>33.98</day>
+          <day>26.06</day>
+          <day>24.98</day>
+          <day>23</day>
+          <day>21.92</day>
+          <day>17.06</day>
+          <day>15.08</day>
+          <day>12.92</day>
+          <day>19.94</day>
+          <day>17.96</day>
+          <day>21.02</day>
+          <day>19.94</day>
+          <day>17.96</day>
+          <day>19.94</day>
+          <day>28.94</day>
+          <day>24.98</day>
+          <day>28.04</day>
+          <day>23</day>
+          <day>26.96</day>
+          <day>28.94</day>
+          <day>23</day>
+          <day>28.04</day>
+          <day>28.04</day>
+          <day>33.08</day>
+          <day>24.08</day>
+          <day>21.02</day>
+          <day>23</day>
+          <day>19.94</day>
+          <day>-2.92</day>
+        </DailyMinDrybulbs>
+      </data>
+    </weather>
+    <TerrainType>suburban</TerrainType>
+    <analysis_period>30</analysis_period>
+    <has_gas_hookup>true</has_gas_hookup>
+    <fuel>
+      <electric>
+        <utility_rate>
+          <flat_rate>0.108017966</flat_rate>
+          <fixed_monthly_charge>8</fixed_monthly_charge>
+          <pv_production_type>net metering</pv_production_type>
+          <net_metering_excess_sellback_type>user</net_metering_excess_sellback_type>
+          <net_metering_user_excess_sellback_rate>0.03</net_metering_user_excess_sellback_rate>
+        </utility_rate>
+        <source_site_ratio>3.15</source_site_ratio>
+        <carbon_factor>1.53</carbon_factor>
+      </electric>
+      <gas>
+        <utility_rate>
+          <flat_rate>0.647152662</flat_rate>
+          <fixed_monthly_charge>8</fixed_monthly_charge>
+          <fuel_escalation_rate_real>0</fuel_escalation_rate_real>
+        </utility_rate>
+        <source_site_ratio>1.09</source_site_ratio>
+        <carbon_factor>14.15</carbon_factor>
+      </gas>
+      <oil>
+        <utility_rate>
+          <flat_rate>2.6</flat_rate>
+          <fixed_monthly_charge>0</fixed_monthly_charge>
+          <fuel_escalation_rate_real>0</fuel_escalation_rate_real>
+        </utility_rate>
+        <source_site_ratio>1.19</source_site_ratio>
+        <carbon_factor>27.37</carbon_factor>
+      </oil>
+      <propane>
+        <utility_rate>
+          <flat_rate>1.99</flat_rate>
+          <fixed_monthly_charge>0</fixed_monthly_charge>
+          <fuel_escalation_rate_real>0</fuel_escalation_rate_real>
+        </utility_rate>
+        <source_site_ratio>1.15</source_site_ratio>
+        <carbon_factor>15.7</carbon_factor>
+      </propane>
+    </fuel>
+  </site>
+  <simulation>
+    <SimStartMonth>1</SimStartMonth>
+    <SimStartDay>1</SimStartDay>
+    <SimEndMonth>12</SimEndMonth>
+    <SimEndDay>31</SimEndDay>
+    <CalculateUtilityBills>true</CalculateUtilityBills>
+    <GenerateHourlyOutput>false</GenerateHourlyOutput>
+    <Timestep>10</Timestep>
+  </simulation>
+  <misc />
+  <orientation>
+    <default>
+      <Azimuth>0.0</Azimuth>
+    </default>
+  </orientation>
+  <neighbors>
+    <none />
+  </neighbors>
+  <wood_stud_wall>
+    <none />
+  </wood_stud_wall>
+  <double_stud_wall>
+    <default>
+      <DSWallInstallGrade>1</DSWallInstallGrade>
+      <DSWallStudDepth>3.5</DSWallStudDepth>
+      <DSWallGapDepth>3.5</DSWallGapDepth>
+      <DSWallCavityInsRvalue>45.0</DSWallCavityInsRvalue>
+      <DSWallCavityInsType>fiberglass batt</DSWallCavityInsType>
+      <DSWallFramingFactor>0.22</DSWallFramingFactor>
+      <DSWallStudSpacing>24.0</DSWallStudSpacing>
+      <DSWallIsStaggered>true</DSWallIsStaggered>
+    </default>
+  </double_stud_wall>
+  <steel_stud_wall>
+    <none />
+  </steel_stud_wall>
+  <cmu_wall>
+    <none />
+  </cmu_wall>
+  <sip_wall>
+    <none />
+  </sip_wall>
+  <icf_wall>
+    <none />
+  </icf_wall>
+  <other_wall>
+    <none />
+  </other_wall>
+  <wall_sheathing>
+    <continuous_insulation>
+      <WallSheathingHasOSB>false</WallSheathingHasOSB>
+      <WallSheathingContInsType>xps</WallSheathingContInsType>
+      <WallSheathingContInsThickness>1.0</WallSheathingContInsThickness>
+      <WallSheathingContInsRvalue>5.0</WallSheathingContInsRvalue>
+    </continuous_insulation>
+  </wall_sheathing>
+  <exterior_finish>
+    <default>
+      <FinishThickness>0.375</FinishThickness>
+      <FinishType>vinyl</FinishType>
+      <FinishEmissivity>0.9</FinishEmissivity>
+      <FinishAbsorptivity>0.3</FinishAbsorptivity>
+      <FinishConductivity>0.62</FinishConductivity>
+      <FinishDensity>11.1</FinishDensity>
+      <FinishSpecificHeat>0.25</FinishSpecificHeat>
+    </default>
+  </exterior_finish>
+  <interzonal_walls>
+    <cavity_insulation>
+      <IntWallCavityInsType>fiberglass batt</IntWallCavityInsType>
+      <IntWallInstallGrade>1</IntWallInstallGrade>
+      <IntWallCavityInsRvalueNominal>13.0</IntWallCavityInsRvalueNominal>
+      <IntWallStudSpacing>16.0</IntWallStudSpacing>
+      <IntWallCavityDepth>3.5</IntWallCavityDepth>
+      <IntWallCavityInsRvalueInstalled>13.0</IntWallCavityInsRvalueInstalled>
+      <IntWallCavityInsFillsCavity>true</IntWallCavityInsFillsCavity>
+      <IntWallFramingFactor>0.25</IntWallFramingFactor>
+    </cavity_insulation>
+  </interzonal_walls>
+  <unfinished_attic>
+    <ceiling_insulation>
+      <UARoofFramingSpacing>24.0</UARoofFramingSpacing>
+      <UARoofFramingFactor>0.07</UARoofFramingFactor>
+      <UACeilingFramingSpacing>24.0</UACeilingFramingSpacing>
+      <UACeilingJoistThickness>3.5</UACeilingJoistThickness>
+      <UACeilingInstallGrade>1</UACeilingInstallGrade>
+      <UACeilingInsRvalueNominal>60.0</UACeilingInsRvalueNominal>
+      <UACeilingInsType>open cell spray foam</UACeilingInsType>
+      <UACeilingInsThickness>16.67</UACeilingInsThickness>
+      <UARoofFramingThickness>7.25</UARoofFramingThickness>
+      <UACeilingFramingFactor>0.07</UACeilingFramingFactor>
+      <UASLA>0.00333</UASLA>
+    </ceiling_insulation>
+  </unfinished_attic>
+  <finished_roof>
+    <none />
+  </finished_roof>
+  <roofing_material>
+    <default>
+      <RoofMatAbsorptivity>0.85</RoofMatAbsorptivity>
+      <RoofMatEmissivity>0.91</RoofMatEmissivity>
+      <RoofMatColor>medium</RoofMatColor>
+      <RoofMatDescription>asphaltshingles</RoofMatDescription>
+    </default>
+  </roofing_material>
+  <radiant_barrier>
+    <none />
+  </radiant_barrier>
+  <slab>
+    <exterior_insulation>
+      <SlabInsType>xps</SlabInsType>
+      <SlabExtRvalue>20.0</SlabExtRvalue>
+      <SlabMassThickness>4.0</SlabMassThickness>
+      <SlabMassConductivity>9.1</SlabMassConductivity>
+      <SlabMassDensity>140.0</SlabMassDensity>
+      <SlabMassSpecificHeat>0.2</SlabMassSpecificHeat>
+      <SlabExtInsDepth>4.0</SlabExtInsDepth>
+    </exterior_insulation>
+  </slab>
+  <finished_basement>
+    <none />
+  </finished_basement>
+  <unfinished_basement>
+    <none />
+  </unfinished_basement>
+  <crawlspace>
+    <none />
+  </crawlspace>
+  <pierbeam>
+    <none />
+  </pierbeam>
+  <interzonal_floor>
+    <cavity_insulation>
+      <IntFloorFramingSpacing>16.0</IntFloorFramingSpacing>
+      <IntFloorCavityInsRvalueNominal>19.0</IntFloorCavityInsRvalueNominal>
+      <IntFloorInstallGrade>1</IntFloorInstallGrade>
+      <IntFloorFramingFactor>0.13</IntFloorFramingFactor>
+      <IntFloorCavityInsType>fiberglass batt</IntFloorCavityInsType>
+    </cavity_insulation>
+  </interzonal_floor>
+  <carpet>
+    <default>
+      <CarpetPadRValue>2.08</CarpetPadRValue>
+      <CarpetFloorFraction>0.8</CarpetFloorFraction>
+    </default>
+  </carpet>
+  <floor_mass>
+    <default>
+      <FloorMassConductivity>0.8004</FloorMassConductivity>
+      <FloorMassDensity>34.0</FloorMassDensity>
+      <FloorMassThickness>0.625</FloorMassThickness>
+      <FloorMassSpecificHeat>0.29</FloorMassSpecificHeat>
+    </default>
+  </floor_mass>
+  <ext_wall_mass>
+    <one_layer_std>
+      <ExtWallMassLayerConductivity>1.1112</ExtWallMassLayerConductivity>
+      <ExtWallMassLayerThickness>0.5</ExtWallMassLayerThickness>
+      <ExtWallMassLayerDensity>50.0</ExtWallMassLayerDensity>
+      <ExtWallMassNumLayers>1</ExtWallMassNumLayers>
+      <ExtWallMassLayerSpecificHeat>0.2</ExtWallMassLayerSpecificHeat>
+    </one_layer_std>
+  </ext_wall_mass>
+  <partition_wall_mass>
+    <one_layer_std>
+      <PartitionWallMassLayerThickness>0.5</PartitionWallMassLayerThickness>
+      <PartitionWallMassLayerConductivity>1.1112</PartitionWallMassLayerConductivity>
+      <PartitionWallMassFractionOfFloorArea>1.0</PartitionWallMassFractionOfFloorArea>
+      <PartitionWallMassNumLayers>1</PartitionWallMassNumLayers>
+      <PartitionWallMassLayerDensity>50.0</PartitionWallMassLayerDensity>
+      <PartitionWallMassLayerSpecificHeat>0.2</PartitionWallMassLayerSpecificHeat>
+    </one_layer_std>
+  </partition_wall_mass>
+  <ceiling_mass>
+    <one_layer_std>
+      <CeilingMassNumLayers>1</CeilingMassNumLayers>
+      <CeilingMassLayerThickness>0.5</CeilingMassLayerThickness>
+      <CeilingMassLayerDensity>50.0</CeilingMassLayerDensity>
+      <CeilingMassLayerSpecificHeat>0.2</CeilingMassLayerSpecificHeat>
+      <CeilingMassLayerConductivity>1.1112</CeilingMassLayerConductivity>
+    </one_layer_std>
+  </ceiling_mass>
+  <window_areas>
+    <percent_each_wall>
+      <WindowAreaPerimeterAreaRatioFront>1.41</WindowAreaPerimeterAreaRatioFront>
+      <WindowAreaPerimeterAreaRatioBack>1.41</WindowAreaPerimeterAreaRatioBack>
+      <WindowAreaPerimeterAreaRatioLeft>1.41</WindowAreaPerimeterAreaRatioLeft>
+      <WindowAreaPerimeterAreaRatioRight>1.41</WindowAreaPerimeterAreaRatioRight>
+      <WindowAreaWallRatioFront>0.15</WindowAreaWallRatioFront>
+      <WindowAreaWallRatioLeft>0.15</WindowAreaWallRatioLeft>
+      <WindowAreaWallRatioBack>0.15</WindowAreaWallRatioBack>
+      <WindowAreaWallRatioRight>0.15</WindowAreaWallRatioRight>
+    </percent_each_wall>
+  </window_areas>
+  <window_type>
+    <whole_house>
+      <WindowFrameMaterial>insulated</WindowFrameMaterial>
+      <WindowNumPanes>3</WindowNumPanes>
+      <WindowUvalue>0.17</WindowUvalue>
+      <WindowSHGC>0.27</WindowSHGC>
+    </whole_house>
+  </window_type>
+  <interior_shading>
+    <default>
+      <IntShadeHeatingMultiplier>0.7</IntShadeHeatingMultiplier>
+      <IntShadeCoolingMultiplier>0.7</IntShadeCoolingMultiplier>
+    </default>
+  </interior_shading>
+  <door_area>
+    <default>
+      <DoorAreaSqft>20.0</DoorAreaSqft>
+    </default>
+  </door_area>
+  <doors>
+    <default>
+      <DoorOperation>swinging</DoorOperation>
+      <DoorUvalue>0.2</DoorUvalue>
+    </default>
+  </doors>
+  <eaves_options>
+    <default>
+      <EavesDepth>2.0</EavesDepth>
+    </default>
+  </eaves_options>
+  <overhangs>
+    <none />
+  </overhangs>
+  <infiltration>
+    <ach50>
+      <InfiltrationShelterCoefficient>auto</InfiltrationShelterCoefficient>
+      <InfiltrationLivingSpaceACH50>1.0</InfiltrationLivingSpaceACH50>
+      <InfiltrationGarageACH50>1.0</InfiltrationGarageACH50>
+    </ach50>
+  </infiltration>
+  <mechanical_ventilation>
+    <exhaust>
+      <MechVentASHRAEStandard>2010</MechVentASHRAEStandard>
+      <MechVentType>exhaust</MechVentType>
+      <MechVentFractionOfASHRAE>1.0</MechVentFractionOfASHRAE>
+      <MechVentHouseFanPower>0.15</MechVentHouseFanPower>
+      <MechVentInfilCredit>true</MechVentInfilCredit>
+    </exhaust>
+  </mechanical_ventilation>
+  <natural_ventilation>
+    <default>
+      <NatVentHtgSsnSetpointOffset>1.0</NatVentHtgSsnSetpointOffset>
+      <NatVentMaxOARelativeHumidity>0.7</NatVentMaxOARelativeHumidity>
+      <NatVentClgSsnSetpointOffset>1.0</NatVentClgSsnSetpointOffset>
+      <NatVentOvlpSsnSetpointOffset>1.0</NatVentOvlpSsnSetpointOffset>
+      <NatVentHeatingSeason>true</NatVentHeatingSeason>
+      <NatVentCoolingSeason>true</NatVentCoolingSeason>
+      <NatVentOverlapSeason>true</NatVentOverlapSeason>
+      <NatVentMaxOAHumidityRatio>0.0115</NatVentMaxOAHumidityRatio>
+      <NatVentNumberWeekdays>3</NatVentNumberWeekdays>
+      <NatVentNumberWeekendDays>0</NatVentNumberWeekendDays>
+      <NatVentFractionWindowAreaOpen>0.33</NatVentFractionWindowAreaOpen>
+      <NatVentFractionWindowsOpen>0.2</NatVentFractionWindowsOpen>
+    </default>
+  </natural_ventilation>
+  <air_conditioner>
+    <none />
+  </air_conditioner>
+  <room_air_conditioner>
+    <none />
+  </room_air_conditioner>
+  <furnace>
+    <default>
+      <FurnaceHasOpenFlue>false</FurnaceHasOpenFlue>
+      <FurnaceFuelType>gas</FurnaceFuelType>
+      <FurnaceRatedAFUE>0.95</FurnaceRatedAFUE>
+      <FurnaceInstalledAFUE>0.95</FurnaceInstalledAFUE>
+      <FurnaceMaxSupplyTemp>120.0</FurnaceMaxSupplyTemp>
+      <FurnaceSupplyFanPowerInstalled>0.5</FurnaceSupplyFanPowerInstalled>
+    </default>
+  </furnace>
+  <hydronic_heating>
+    <none />
+  </hydronic_heating>
+  <electric_baseboard>
+    <none />
+  </electric_baseboard>
+  <heat_pump>
+    <none />
+  </heat_pump>
+  <mini_split_heat_pump>
+    <none />
+  </mini_split_heat_pump>
+  <gshp>
+    <none />
+  </gshp>
+  <ducts>
+    <fractional_leakage>
+      <DuctSupplyLeakageFractionOfTotal>0.0</DuctSupplyLeakageFractionOfTotal>
+      <DuctReturnLeakageFractionOfTotal>0.0</DuctReturnLeakageFractionOfTotal>
+      <DuctTotalLeakage>0.0</DuctTotalLeakage>
+      <DuctAHReturnLeakageFractionOfTotal>0.0</DuctAHReturnLeakageFractionOfTotal>
+      <DuctUnconditionedRvalue>0.0</DuctUnconditionedRvalue>
+      <DuctLocation>living</DuctLocation>
+      <DuctLocationFrac>auto</DuctLocationFrac>
+      <DuctSupplySurfaceAreaMultiplier>1.0</DuctSupplySurfaceAreaMultiplier>
+      <DuctReturnSurfaceAreaMultiplier>1.0</DuctReturnSurfaceAreaMultiplier>
+      <DuctNumReturns>auto</DuctNumReturns>
+      <DuctAHSupplyLeakageFractionOfTotal>0.0</DuctAHSupplyLeakageFractionOfTotal>
+    </fractional_leakage>
+  </ducts>
+  <ceiling_fans>
+    <benchmark>
+      <CeilingFanUseBenchmarkEnergy>true</CeilingFanUseBenchmarkEnergy>
+      <CeilingFanCoolingSetptOffset>0.0</CeilingFanCoolingSetptOffset>
+    </benchmark>
+  </ceiling_fans>
+  <dehumidifier>
+    <none />
+  </dehumidifier>
+  <cooling_set_point>
+    <constant_set_point>
+      <CoolingSetpointProgrammableThermostat>false</CoolingSetpointProgrammableThermostat>
+      <CoolingSetpointConstantSetpoint>75.0</CoolingSetpointConstantSetpoint>
+    </constant_set_point>
+  </cooling_set_point>
+  <heating_set_point>
+    <constant_set_point>
+      <HeatingSetpointConstantSetpoint>70.0</HeatingSetpointConstantSetpoint>
+      <HeatingSetpointProgrammableThermostat>false</HeatingSetpointProgrammableThermostat>
+    </constant_set_point>
+  </heating_set_point>
+  <humidity_set_point>
+    <none />
+  </humidity_set_point>
+  <water_heater>
+    <tank_gas>
+      <WaterHeaterForcedDraftFanPower>0.0</WaterHeaterForcedDraftFanPower>
+      <WaterHeaterParasiticElectricPower>0.0</WaterHeaterParasiticElectricPower>
+      <WaterHeaterType>tank</WaterHeaterType>
+      <WaterHeaterLocation>auto</WaterHeaterLocation>
+      <WaterHeaterSetpoint>125.0</WaterHeaterSetpoint>
+      <WaterHeaterRatedEnergyFactor>0.59</WaterHeaterRatedEnergyFactor>
+      <WaterHeaterRecoveryEfficiency>0.76</WaterHeaterRecoveryEfficiency>
+      <WaterHeaterFuelType>gas</WaterHeaterFuelType>
+      <WaterHeaterTankVolume>auto</WaterHeaterTankVolume>
+      <WaterHeaterRatedInputPowerNonElec>40.0</WaterHeaterRatedInputPowerNonElec>
+      <WaterHeaterHasOpenFlue>true</WaterHeaterHasOpenFlue>
+      <WaterHeaterInstalledEnergyFactor>0.59</WaterHeaterInstalledEnergyFactor>
+    </tank_gas>
+  </water_heater>
+  <water_distribution>
+    <default>
+      <PipeType>trunkbranch</PipeType>
+      <PipeMaterial>copper</PipeMaterial>
+      <PipeLocationPrimary>interior</PipeLocationPrimary>
+      <PipeLength>auto</PipeLength>
+      <PipeRvalue>0.0</PipeRvalue>
+    </default>
+  </water_distribution>
+  <central_water_heater>
+    <none />
+  </central_water_heater>
+  <central_distribution>
+    <none />
+  </central_distribution>
+  <solar_dhw>
+    <none />
+  </solar_dhw>
+  <sdhw_azimuth>
+    <default>
+      <SDHWAzimuth>180.0</SDHWAzimuth>
+      <SDHWAzimuthType>relative</SDHWAzimuthType>
+    </default>
+  </sdhw_azimuth>
+  <sdhw_tilt>
+    <default>
+      <SDHWTiltType>pitch</SDHWTiltType>
+      <SDHWTilt>0.0</SDHWTilt>
+    </default>
+  </sdhw_tilt>
+  <lighting>
+    <lamp_fractions>
+      <LightingEfficacyCFL>55.0</LightingEfficacyCFL>
+      <LightingHardwiredFracCFL>0.34</LightingHardwiredFracCFL>
+      <LightingHardwiredFracLED>0.0</LightingHardwiredFracLED>
+      <LightingHardwiredFracLFL>0.0</LightingHardwiredFracLFL>
+      <LightingPluginFracCFL>0.34</LightingPluginFracCFL>
+      <LightingPluginFracLED>0.0</LightingPluginFracLED>
+      <LightingPluginFracLFL>0.0</LightingPluginFracLFL>
+      <LightingEfficacyLFL>88.0</LightingEfficacyLFL>
+      <LightingEfficacyLED>80.0</LightingEfficacyLED>
+      <LightingExteriorQualifyingLights>0.34</LightingExteriorQualifyingLights>
+      <LightingCorridorLPD>0.5</LightingCorridorLPD>
+      <LightingGarageQualifyingLights>0.34</LightingGarageQualifyingLights>
+      <LightingInteriorQualifyingLights>0.34</LightingInteriorQualifyingLights>
+      <LightingEfficacyIncandescent>15.0</LightingEfficacyIncandescent>
+    </lamp_fractions>
+  </lighting>
+  <refrigerator>
+    <default>
+      <RefrigeratorAnnualEnergy>434.0</RefrigeratorAnnualEnergy>
+      <RefrigeratorConfiguration>top mounted freezer</RefrigeratorConfiguration>
+      <RefrigeratorDefrost>automatic</RefrigeratorDefrost>
+      <RefrigeratorDRAutomaticControl>false</RefrigeratorDRAutomaticControl>
+      <RefrigeratorIceDispenser>false</RefrigeratorIceDispenser>
+      <RefrigeratorEnergyMultiplier>1.0</RefrigeratorEnergyMultiplier>
+      <RefrigeratorVolume>18.0</RefrigeratorVolume>
+      <RefrigeratorAdjustedVolume>20.9</RefrigeratorAdjustedVolume>
+    </default>
+  </refrigerator>
+  <cooking_range>
+    <electric>
+      <CookingRangeHasConvectionOven>false</CookingRangeHasConvectionOven>
+      <CookingRangeCooktopEnergyFactor>0.74</CookingRangeCooktopEnergyFactor>
+      <CookingRangeOvenEnergyFactor>0.11</CookingRangeOvenEnergyFactor>
+      <CookingRangeFuelType>electric</CookingRangeFuelType>
+      <CookingRangeDRAutomaticControl>false</CookingRangeDRAutomaticControl>
+      <CookingRangeEnergyMultiplier>1.0</CookingRangeEnergyMultiplier>
+      <CookingRangeHasInductionRange>false</CookingRangeHasInductionRange>
+    </electric>
+  </cooking_range>
+  <dishwasher>
+    <default>
+      <DWEnergyGuideAnnualEnergy>318.0</DWEnergyGuideAnnualEnergy>
+      <DWIsColdWaterInletOnly>false</DWIsColdWaterInletOnly>
+      <DWInternalHeaterAdjustment>true</DWInternalHeaterAdjustment>
+      <DWColdWaterConnUsePerCycle>0.0</DWColdWaterConnUsePerCycle>
+      <DWEnergyGuideDate>2007</DWEnergyGuideDate>
+      <DWEnergyGuideAnnualGasCost>24.0</DWEnergyGuideAnnualGasCost>
+      <DWEnergyMultiplier>1.0</DWEnergyMultiplier>
+      <DWHotWaterMultiplier>1.0</DWHotWaterMultiplier>
+      <DWDRAutomaticControl>false</DWDRAutomaticControl>
+      <DWcapacity>8</DWcapacity>
+    </default>
+  </dishwasher>
+  <clothes_washer>
+    <default>
+      <CWUseColdCycleOnly>false</CWUseColdCycleOnly>
+      <CWDRAutomaticControl>false</CWDRAutomaticControl>
+      <CWHotWaterMultiplier>1.0</CWHotWaterMultiplier>
+      <CWAnnualEnergyConsumption_Test>387.0</CWAnnualEnergyConsumption_Test>
+      <CWThermostaticControl>true</CWThermostaticControl>
+      <CWEnergyMultiplier>1.0</CWEnergyMultiplier>
+      <CWAnnualCostwithGasDHW_Test>24.0</CWAnnualCostwithGasDHW_Test>
+      <CWTestDate>2007</CWTestDate>
+      <CWMEF>1.41</CWMEF>
+      <CWHasInternalHeaterAdjustment>false</CWHasInternalHeaterAdjustment>
+      <CWHasWaterLevelFillSensor>false</CWHasWaterLevelFillSensor>
+      <CWDrumVolume>3.5</CWDrumVolume>
+    </default>
+  </clothes_washer>
+  <clothes_dryer>
+    <electric>
+      <DryerExhaust>100.0</DryerExhaust>
+      <DryerAutoTermination>timer</DryerAutoTermination>
+      <DryerDRAutomaticControl>false</DryerDRAutomaticControl>
+      <DryerFuelType>electric</DryerFuelType>
+      <DryerEnergyMultiplier>1.0</DryerEnergyMultiplier>
+      <DryerEnergyFactor>3.1</DryerEnergyFactor>
+    </electric>
+  </clothes_dryer>
+  <misc_hot_water_loads>
+    <default>
+      <MHWLHasLowFlowFixtures>false</MHWLHasLowFlowFixtures>
+      <MHWLShowerMultiplier>1.0</MHWLShowerMultiplier>
+      <MHWLSinkMultiplier>1.0</MHWLSinkMultiplier>
+      <MHWLBathMultiplier>1.0</MHWLBathMultiplier>
+    </default>
+  </misc_hot_water_loads>
+  <refrigerator_schedule>
+    <standard>
+      <RefrigeratorSchedule>
+        <item>0.040</item>
+        <item>0.039</item>
+        <item>0.038</item>
+        <item>0.037</item>
+        <item>0.036</item>
+        <item>0.036</item>
+        <item>0.038</item>
+        <item>0.040</item>
+        <item>0.041</item>
+        <item>0.041</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.041</item>
+        <item>0.044</item>
+        <item>0.048</item>
+        <item>0.050</item>
+        <item>0.048</item>
+        <item>0.047</item>
+        <item>0.046</item>
+        <item>0.044</item>
+        <item>0.041</item>
+        <item>0.837</item>
+        <item>0.835</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>0.931</item>
+        <item>0.925</item>
+        <item>0.837</item>
+      </RefrigeratorSchedule>
+    </standard>
+  </refrigerator_schedule>
+  <cooking_range_schedule>
+    <standard>
+      <CookingRangeSchedule>
+        <item>0.007</item>
+        <item>0.007</item>
+        <item>0.004</item>
+        <item>0.004</item>
+        <item>0.007</item>
+        <item>0.011</item>
+        <item>0.025</item>
+        <item>0.042</item>
+        <item>0.046</item>
+        <item>0.048</item>
+        <item>0.042</item>
+        <item>0.050</item>
+        <item>0.057</item>
+        <item>0.046</item>
+        <item>0.057</item>
+        <item>0.044</item>
+        <item>0.092</item>
+        <item>0.150</item>
+        <item>0.117</item>
+        <item>0.060</item>
+        <item>0.035</item>
+        <item>0.025</item>
+        <item>0.016</item>
+        <item>0.011</item>
+        <item>1.097</item>
+        <item>1.097</item>
+        <item>0.991</item>
+        <item>0.987</item>
+        <item>0.991</item>
+        <item>0.890</item>
+        <item>0.896</item>
+        <item>0.896</item>
+        <item>0.890</item>
+        <item>1.085</item>
+        <item>1.085</item>
+        <item>1.097</item>
+      </CookingRangeSchedule>
+    </standard>
+  </cooking_range_schedule>
+  <clothes_dryer_schedule>
+    <standard>
+      <DryerSchedule>
+        <item>0.010</item>
+        <item>0.006</item>
+        <item>0.004</item>
+        <item>0.002</item>
+        <item>0.004</item>
+        <item>0.006</item>
+        <item>0.016</item>
+        <item>0.032</item>
+        <item>0.048</item>
+        <item>0.068</item>
+        <item>0.078</item>
+        <item>0.081</item>
+        <item>0.074</item>
+        <item>0.067</item>
+        <item>0.057</item>
+        <item>0.061</item>
+        <item>0.055</item>
+        <item>0.054</item>
+        <item>0.051</item>
+        <item>0.051</item>
+        <item>0.052</item>
+        <item>0.054</item>
+        <item>0.044</item>
+        <item>0.024</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+        <item>1.0</item>
+      </DryerSchedule>
+    </standard>
+  </clothes_dryer_schedule>
+  <misc_electric_loads>
+    <default>
+      <MELmultiplier>1.0</MELmultiplier>
+      <MELDRAutomaticControl>false</MELDRAutomaticControl>
+    </default>
+  </misc_electric_loads>
+  <extra_refrigerator>
+    <none />
+  </extra_refrigerator>
+  <freezer>
+    <none />
+  </freezer>
+  <pool_heater>
+    <none />
+  </pool_heater>
+  <pool_pump>
+    <none />
+  </pool_pump>
+  <hot_tub_heater>
+    <none />
+  </hot_tub_heater>
+  <hot_tub_pump>
+    <none />
+  </hot_tub_pump>
+  <well_pump>
+    <none />
+  </well_pump>
+  <gas_fireplace>
+    <none />
+  </gas_fireplace>
+  <gas_grill>
+    <none />
+  </gas_grill>
+  <gas_lighting>
+    <none />
+  </gas_lighting>
+  <misc_electric_loads_schedule>
+    <standard>
+      <MELSchedule>
+        <item>0.035</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.031</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.037</item>
+        <item>0.042</item>
+        <item>0.043</item>
+        <item>0.043</item>
+        <item>0.043</item>
+        <item>0.044</item>
+        <item>0.045</item>
+        <item>0.045</item>
+        <item>0.044</item>
+        <item>0.046</item>
+        <item>0.048</item>
+        <item>0.052</item>
+        <item>0.053</item>
+        <item>0.050</item>
+        <item>0.047</item>
+        <item>0.045</item>
+        <item>0.040</item>
+        <item>0.036</item>
+        <item>1.248</item>
+        <item>1.257</item>
+        <item>0.993</item>
+        <item>0.989</item>
+        <item>0.993</item>
+        <item>0.827</item>
+        <item>0.821</item>
+        <item>0.821</item>
+        <item>0.827</item>
+        <item>0.990</item>
+        <item>0.987</item>
+        <item>1.248</item>
+      </MELSchedule>
+    </standard>
+  </misc_electric_loads_schedule>
+  <extra_refrigerator_schedule>
+    <standard>
+      <ExtraRefrigeratorSchedule>
+        <item>0.040</item>
+        <item>0.039</item>
+        <item>0.038</item>
+        <item>0.037</item>
+        <item>0.036</item>
+        <item>0.036</item>
+        <item>0.038</item>
+        <item>0.040</item>
+        <item>0.041</item>
+        <item>0.041</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.041</item>
+        <item>0.044</item>
+        <item>0.048</item>
+        <item>0.050</item>
+        <item>0.048</item>
+        <item>0.047</item>
+        <item>0.046</item>
+        <item>0.044</item>
+        <item>0.041</item>
+        <item>0.837</item>
+        <item>0.835</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>0.931</item>
+        <item>0.925</item>
+        <item>0.837</item>
+      </ExtraRefrigeratorSchedule>
+    </standard>
+  </extra_refrigerator_schedule>
+  <freezer_schedule>
+    <standard>
+      <FreezerSchedule>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.040</item>
+        <item>0.041</item>
+        <item>0.041</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.043</item>
+        <item>0.043</item>
+        <item>0.044</item>
+        <item>0.043</item>
+        <item>0.043</item>
+        <item>0.043</item>
+        <item>0.042</item>
+        <item>0.042</item>
+        <item>0.041</item>
+        <item>0.041</item>
+        <item>0.041</item>
+        <item>0.837</item>
+        <item>0.835</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>0.931</item>
+        <item>0.925</item>
+        <item>0.837</item>
+      </FreezerSchedule>
+    </standard>
+  </freezer_schedule>
+  <pool_heater_schedule>
+    <standard>
+      <PoolHeaterSchedule>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>0.004</item>
+        <item>0.008</item>
+        <item>0.015</item>
+        <item>0.026</item>
+        <item>0.044</item>
+        <item>0.084</item>
+        <item>0.121</item>
+        <item>0.127</item>
+        <item>0.121</item>
+        <item>0.120</item>
+        <item>0.090</item>
+        <item>0.075</item>
+        <item>0.061</item>
+        <item>0.037</item>
+        <item>0.023</item>
+        <item>0.013</item>
+        <item>0.008</item>
+        <item>0.004</item>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>1.154</item>
+        <item>1.161</item>
+        <item>1.013</item>
+        <item>1.010</item>
+        <item>1.013</item>
+        <item>0.888</item>
+        <item>0.883</item>
+        <item>0.883</item>
+        <item>0.888</item>
+        <item>0.978</item>
+        <item>0.974</item>
+        <item>1.154</item>
+      </PoolHeaterSchedule>
+    </standard>
+  </pool_heater_schedule>
+  <pool_pump_schedule>
+    <standard>
+      <PoolPumpSchedule>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>0.004</item>
+        <item>0.008</item>
+        <item>0.015</item>
+        <item>0.026</item>
+        <item>0.044</item>
+        <item>0.084</item>
+        <item>0.121</item>
+        <item>0.127</item>
+        <item>0.121</item>
+        <item>0.120</item>
+        <item>0.090</item>
+        <item>0.075</item>
+        <item>0.061</item>
+        <item>0.037</item>
+        <item>0.023</item>
+        <item>0.013</item>
+        <item>0.008</item>
+        <item>0.004</item>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>0.003</item>
+        <item>1.154</item>
+        <item>1.161</item>
+        <item>1.013</item>
+        <item>1.010</item>
+        <item>1.013</item>
+        <item>0.888</item>
+        <item>0.883</item>
+        <item>0.883</item>
+        <item>0.888</item>
+        <item>0.978</item>
+        <item>0.974</item>
+        <item>1.154</item>
+      </PoolPumpSchedule>
+    </standard>
+  </pool_pump_schedule>
+  <hot_tub_heater_schedule>
+    <standard>
+      <HotTubHeaterSchedule>
+        <item>0.024</item>
+        <item>0.029</item>
+        <item>0.024</item>
+        <item>0.029</item>
+        <item>0.047</item>
+        <item>0.067</item>
+        <item>0.057</item>
+        <item>0.024</item>
+        <item>0.024</item>
+        <item>0.019</item>
+        <item>0.015</item>
+        <item>0.014</item>
+        <item>0.014</item>
+        <item>0.014</item>
+        <item>0.024</item>
+        <item>0.058</item>
+        <item>0.126</item>
+        <item>0.122</item>
+        <item>0.068</item>
+        <item>0.061</item>
+        <item>0.051</item>
+        <item>0.043</item>
+        <item>0.024</item>
+        <item>0.024</item>
+        <item>0.837</item>
+        <item>0.835</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.084</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>1.096</item>
+        <item>0.931</item>
+        <item>0.925</item>
+        <item>0.837</item>
+      </HotTubHeaterSchedule>
+    </standard>
+  </hot_tub_heater_schedule>
+  <hot_tub_pump_schedule>
+    <standard>
+      <HotTubPumpSchedule>
+        <item>0.024</item>
+        <item>0.029</item>
+        <item>0.024</item>
+        <item>0.029</item>
+        <item>0.047</item>
+        <item>0.067</item>
+        <item>0.057</item>
+        <item>0.024</item>
+        <item>0.024</item>
+        <item>0.019</item>
+        <item>0.015</item>
+        <item>0.014</item>
+        <item>0.014</item>
+        <item>0.014</item>
+        <item>0.024</item>
+        <item>0.058</item>
+        <item>0.126</item>
+        <item>0.122</item>
+        <item>0.068</item>
+        <item>0.061</item>
+        <item>0.051</item>
+        <item>0.043</item>
+        <item>0.024</item>
+        <item>0.024</item>
+        <item>0.921</item>
+        <item>0.928</item>
+        <item>0.921</item>
+        <item>0.915</item>
+        <item>0.921</item>
+        <item>1.160</item>
+        <item>1.158</item>
+        <item>1.158</item>
+        <item>1.160</item>
+        <item>0.921</item>
+        <item>0.915</item>
+        <item>0.921</item>
+      </HotTubPumpSchedule>
+    </standard>
+  </hot_tub_pump_schedule>
+  <well_pump_schedule>
+    <standard>
+      <WellPumpSchedule>
+        <item>0.044</item>
+        <item>0.023</item>
+        <item>0.019</item>
+        <item>0.015</item>
+        <item>0.016</item>
+        <item>0.018</item>
+        <item>0.026</item>
+        <item>0.033</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.032</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.045</item>
+        <item>0.057</item>
+        <item>0.066</item>
+        <item>0.076</item>
+        <item>0.081</item>
+        <item>0.086</item>
+        <item>0.075</item>
+        <item>0.065</item>
+        <item>1.154</item>
+        <item>1.161</item>
+        <item>1.013</item>
+        <item>1.010</item>
+        <item>1.013</item>
+        <item>0.888</item>
+        <item>0.883</item>
+        <item>0.883</item>
+        <item>0.888</item>
+        <item>0.978</item>
+        <item>0.974</item>
+        <item>1.154</item>
+      </WellPumpSchedule>
+    </standard>
+  </well_pump_schedule>
+  <gas_fireplace_schedule>
+    <standard>
+      <GasFireplaceSchedule>
+        <item>0.044</item>
+        <item>0.023</item>
+        <item>0.019</item>
+        <item>0.015</item>
+        <item>0.016</item>
+        <item>0.018</item>
+        <item>0.026</item>
+        <item>0.033</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.032</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.045</item>
+        <item>0.057</item>
+        <item>0.066</item>
+        <item>0.076</item>
+        <item>0.081</item>
+        <item>0.086</item>
+        <item>0.075</item>
+        <item>0.065</item>
+        <item>1.154</item>
+        <item>1.161</item>
+        <item>1.013</item>
+        <item>1.010</item>
+        <item>1.013</item>
+        <item>0.888</item>
+        <item>0.883</item>
+        <item>0.883</item>
+        <item>0.888</item>
+        <item>0.978</item>
+        <item>0.974</item>
+        <item>1.154</item>
+      </GasFireplaceSchedule>
+    </standard>
+  </gas_fireplace_schedule>
+  <gas_grill_schedule>
+    <standard>
+      <GasGrillSchedule>
+        <item>0.004</item>
+        <item>0.001</item>
+        <item>0.001</item>
+        <item>0.002</item>
+        <item>0.007</item>
+        <item>0.012</item>
+        <item>0.029</item>
+        <item>0.046</item>
+        <item>0.044</item>
+        <item>0.041</item>
+        <item>0.044</item>
+        <item>0.046</item>
+        <item>0.042</item>
+        <item>0.038</item>
+        <item>0.049</item>
+        <item>0.059</item>
+        <item>0.110</item>
+        <item>0.161</item>
+        <item>0.115</item>
+        <item>0.070</item>
+        <item>0.044</item>
+        <item>0.019</item>
+        <item>0.013</item>
+        <item>0.007</item>
+        <item>1.097</item>
+        <item>1.097</item>
+        <item>0.991</item>
+        <item>0.987</item>
+        <item>0.991</item>
+        <item>0.890</item>
+        <item>0.896</item>
+        <item>0.896</item>
+        <item>0.890</item>
+        <item>1.085</item>
+        <item>1.085</item>
+        <item>1.097</item>
+      </GasGrillSchedule>
+    </standard>
+  </gas_grill_schedule>
+  <gas_lighting_schedule>
+    <standard>
+      <GasLightingSchedule>
+        <item>0.044</item>
+        <item>0.023</item>
+        <item>0.019</item>
+        <item>0.015</item>
+        <item>0.016</item>
+        <item>0.018</item>
+        <item>0.026</item>
+        <item>0.033</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.033</item>
+        <item>0.032</item>
+        <item>0.032</item>
+        <item>0.032</item>
+        <item>0.033</item>
+        <item>0.045</item>
+        <item>0.057</item>
+        <item>0.066</item>
+        <item>0.076</item>
+        <item>0.081</item>
+        <item>0.086</item>
+        <item>0.075</item>
+        <item>0.065</item>
+        <item>1.154</item>
+        <item>1.161</item>
+        <item>1.013</item>
+        <item>1.010</item>
+        <item>1.013</item>
+        <item>0.888</item>
+        <item>0.883</item>
+        <item>0.883</item>
+        <item>0.888</item>
+        <item>0.978</item>
+        <item>0.974</item>
+        <item>1.154</item>
+      </GasLightingSchedule>
+    </standard>
+  </gas_lighting_schedule>
+  <pv_system>
+    <none />
+  </pv_system>
+  <pv_azimuth>
+    <default>
+      <PVAzimuth>180.0</PVAzimuth>
+      <PVAzimuthType>relative</PVAzimuthType>
+    </default>
+  </pv_azimuth>
+  <pv_tilt>
+    <default>
+      <PVTiltType>pitch</PVTiltType>
+      <PVTilt>0.0</PVTilt>
+    </default>
+  </pv_tilt>
+</bldgdesc>

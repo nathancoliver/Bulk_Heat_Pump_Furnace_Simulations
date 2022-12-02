@@ -1,0 +1,743 @@
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=EAVE1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+..Surface=WALL13
+..Surface=WALL18
+..Surface=WALL16
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE6
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+..Surface=WALL11
+..Surface=WALL13
+..Surface=WALL18
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+..Surface=WALL11
+..Surface=WALL18
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-EAVE1
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+..Surface=WALL11
+..Surface=WALL18
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=EAVE3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=EAVE8
+..Surface=Mir-EAVE8
+..Surface=WALL13
+..Surface=WALL18
+..Surface=WALL16
+..Surface=ROOF3
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=13
+..Surface=Mir-EAVE2
+..Surface=EAVE3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE6
+..Surface=EAVE9
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+..Surface=WALL11
+..Surface=WALL13
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=EAVE3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=EAVE8
+..Surface=Mir-EAVE8
+..Surface=EAVE9
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+..Surface=WALL11
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=Mir-EAVE1
+..Surface=EAVE3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE7
+..Surface=EAVE8
+..Surface=Mir-EAVE8
+..Surface=WALL11
+..Surface=WALL18
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=WALL16
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE10
+..Surface=WALL16
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE10
+..Surface=WALL17
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EAVE10 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EAVE10 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=WALL17
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=3
+....Surface=WALL1-WINDOW1
+....Surface=WALL1-WINDOW2
+....Surface=WALL1-WINDOW3
+==================================
+Surface=WALL1-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL1-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL1-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-EAVE1
+..Surface=EAVE2
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE5
+..Surface=EAVE6
+..Surface=Mir-EAVE6
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=WALL7
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=WALL2-DOOR1
+....Surface=WALL2-WINDOW1
+....Surface=WALL2-WINDOW2
+....Surface=WALL2-WINDOW3
+==================================
+Surface=WALL2-DOOR1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL2-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL2-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL2-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-EAVE1
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+..Surface=WALLWEST
+..Surface=WALLNORTH
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=WALL5-WINDOW1
+....Surface=WALL5-WINDOW2
+==================================
+Surface=WALL5-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL5-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE10
+..Surface=WALLWEST
+..Surface=WALLNORTH
+Number of back surfaces=0
+Number of receiving sub surfaces=5
+....Surface=WALL6-WINDOW1
+....Surface=WALL6-WINDOW2
+....Surface=WALL6-WINDOW3
+....Surface=WALL6-WINDOW4
+....Surface=WALL6-WINDOW5
+==================================
+Surface=WALL6-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL6-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL6-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL6-WINDOW4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL6-WINDOW5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL10 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=3
+....Surface=WALL10-WINDOW1
+....Surface=WALL10-WINDOW2
+....Surface=WALL10-WINDOW3
+==================================
+Surface=WALL10-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL10-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL10-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL11 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=Mir-EAVE1
+..Surface=EAVE2
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE5
+..Surface=EAVE6
+..Surface=Mir-EAVE6
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=ROOF2
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=WALL11-WINDOW1
+....Surface=WALL11-WINDOW2
+....Surface=WALL11-WINDOW3
+....Surface=WALL11-WINDOW4
+==================================
+Surface=WALL11-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL11-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL11-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL11-WINDOW4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL12 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL13 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=EAVE1
+..Surface=Mir-EAVE1
+..Surface=EAVE5
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+Number of back surfaces=0
+Number of receiving sub surfaces=3
+....Surface=WALL13-WINDOW1
+....Surface=WALL13-WINDOW2
+....Surface=WALL13-WINDOW3
+==================================
+Surface=WALL13-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL13-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL13-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL14 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=5
+....Surface=WALL14-WINDOW1
+....Surface=WALL14-WINDOW2
+....Surface=WALL14-WINDOW3
+....Surface=WALL14-WINDOW4
+....Surface=WALL14-WINDOW5
+==================================
+Surface=WALL14-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL14-WINDOW2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL14-WINDOW3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL14-WINDOW4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL14-WINDOW5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL18 is used as Receiving Surface in calculations and is non-convex.
+Number of general casting surfaces=9
+..Surface=Mir-EAVE3
+..Surface=EAVE5
+..Surface=Mir-EAVE5
+..Surface=EAVE6
+..Surface=Mir-EAVE6
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=ROOF1
+..Surface=ROOF2
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=WALL18-WINDOW1
+==================================
+Surface=WALL18-WINDOW1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTFLOOR5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=LIVINGPARTITION_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=LIVINGSPACEFURNITURE_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTWALL3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTWALL4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE6
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+..Surface=WALL2
+..Surface=WALL11
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE6
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=WALL8-DOOR1
+....Surface=WALL8-DOOR2
+==================================
+Surface=WALL8-DOOR1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL8-DOOR2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=Mir-EAVE1
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+..Surface=WALLWEST
+..Surface=WALLNORTH
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTWALL12 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL15 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE6
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=INTFLOOR4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=EAVE3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=EAVE8
+..Surface=Mir-EAVE8
+..Surface=WALL18
+..Surface=ROOF3
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=EAVE3
+..Surface=Mir-EAVE3
+..Surface=Mir-EAVE4
+..Surface=Mir-EAVE7
+..Surface=EAVE8
+..Surface=Mir-EAVE8
+..Surface=EAVE9
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+..Surface=WALL11
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GARAGESPACEFURNITURE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL16 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-EAVE7
+..Surface=Mir-EAVE8
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALL17 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-EAVE9
+..Surface=Mir-EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALLEAST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALLWEST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=18
+..Surface=EAVE1
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=EAVE4
+..Surface=EAVE5
+..Surface=Mir-EAVE6
+..Surface=EAVE7
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALLSOUTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WALLNORTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=18
+..Surface=EAVE1
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=EAVE4
+..Surface=EAVE5
+..Surface=Mir-EAVE6
+..Surface=EAVE7
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=HORIZONTAL is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=16
+..Surface=Mir-EAVE1
+..Surface=Mir-EAVE2
+..Surface=Mir-EAVE3
+..Surface=EAVE4
+..Surface=Mir-EAVE5
+..Surface=Mir-EAVE6
+..Surface=EAVE7
+..Surface=Mir-EAVE8
+..Surface=Mir-EAVE9
+..Surface=EAVE10
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RADUCTWALL_N_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RADUCTWALL_E_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RADUCTWALL_S_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RADUCTWALL_W_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RADUCTFLOOR_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RADUCTCEILING_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0

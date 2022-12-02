@@ -1,0 +1,141 @@
+Program Version,EnergyPlus, Version 8.8.0-7c3bbe4830, YMD=2022.12.02 10:54,IDD_Version 8.8.0
+   ** Warning ** IP: Note -- Some missing fields have been filled with defaults. See the audit output file for details.
+   ** Warning ** Sizing:Parameters: note Timesteps in Averaging Window entered value=[1] is less than 1 hour (i.e., 6 timesteps).
+   ** Warning ** ManageSizing: For a zone sizing run, there must be at least 1 Sizing:Zone input object. SimulationControl Zone Sizing option ignored.
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** Site:GroundTemperature:BuildingSurface: Some values fall outside the range of 15-25C.
+   **   ~~~   ** These values may be inappropriate.  Please consult the Input Output Reference for more details.
+   ** Warning ** ProcessScheduleInput: Schedule:File="CLOTHESWASHER_1" 51880 records had errors - these values are set to 0.
+   **   ~~~   ** Use Output:Diagnostics,DisplayExtraWarnings; to see individual records in error.
+   ** Warning ** ProcessScheduleInput: Schedule:File="DISHWASHER_1" 51729 records had errors - these values are set to 0.
+   **   ~~~   ** Use Output:Diagnostics,DisplayExtraWarnings; to see individual records in error.
+   ** Warning ** ProcessScheduleInput: Schedule:File="SHOWERS_1" 51587 records had errors - these values are set to 0.
+   **   ~~~   ** Use Output:Diagnostics,DisplayExtraWarnings; to see individual records in error.
+   ** Warning ** ProcessScheduleInput: Schedule:File="SINKS_1" 45293 records had errors - these values are set to 0.
+   **   ~~~   ** Use Output:Diagnostics,DisplayExtraWarnings; to see individual records in error.
+   ************* Note that the following warning(s) may/will occur if you have not enclosed your zone completely.
+   ** Warning ** Entered Zone Volumes differ from calculated zone volume(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** No floor exists in Zone="DUMMY", zone floor area is zero. All values for this zone that are entered per floor area will be zero.
+   ** Warning ** CalculateZoneVolume: 4 zones are not fully enclosed. For more details use:  Output:Diagnostics,DisplayExtrawarnings; 
+   ** Warning ** CheckUsedConstructions: There are 14 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** DetermineShadowingCombinations: There are 1 surfaces which are receiving surfaces and are non-convex.
+   **   ~~~   ** ...Shadowing values may be inaccurate. Check .shd report file for more surface shading details
+   **   ~~~   ** ...Add Output:Diagnostics,DisplayExtraWarnings; to see individual warnings for each surface.
+   ** Severe  ** DetermineShadowingCombinations: There are 1 surfaces which are casting surfaces and are non-convex.
+   **   ~~~   ** ...Shadowing values may be inaccurate. Check .shd report file for more surface shading details
+   **   ~~~   ** ...Add Output:Diagnostics,DisplayExtraWarnings; to see individual severes for each surface.
+   ** Warning ** GetDXCoils: Coil:Heating:DX:MultiSpeed="DX HEATING COIL_1", 
+   **   ~~~   ** ...Maximum Outdoor Dry-Bulb Temperature for Defrost Operation = 0.0 for defrost control = TIMED.
+   ** Warning ** GetDXCoils: Coil:Heating:DX:MultiSpeed="DX HEATING COIL_1", 
+   **   ~~~   ** ...Resistive Defrost Heater Capacity = 0.0 for defrost strategy = RESISTIVE.
+   ** Warning ** Sizing: Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1": Rated air volume flow rate per watt of rated total cooling capacity is out of range at speed 1
+   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[6.053E-005], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.
+   ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=MAINS PRESSURE_1
+   ** Warning ** Meter:Custom="GAS:UNIT_1", invalid Output Variable or Meter Name 3="APPL_1:INTERIOREQUIPMENT:GAS".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Output:Meter: invalid Key Name="ELECTRICITY:COMMON" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GAS:COMMON" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="APPL_1:EXTERIOREQUIPMENT:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PROPANE:COMMON" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FUELOIL:COMMON" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Found WaterUse:Tank that has nothing connected to draw water from it.
+   **   ~~~   ** Occurs for WaterUse:Tank = CONDENSATE TANK 1_1
+   **   ~~~   ** Check that input for water consuming components specifies a water supply tank.
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** GetCurrentScheduleValue: Schedule="TOTAL_MELS_1" is a Schedule:File
+   **   ~~~   ** ...Use of Schedule:File when DaylightSavingTime is in effect is not recommended.
+   **   ~~~   ** ...1) Remove RunperiodControl:DaylightSavingTime object or remove DST period from Weather File.
+   **   ~~~   ** ...2) Configure other schedules and Schedule:File to account for occupant behavior during DST.
+   **   ~~~   ** ...   If you have already done this, you can ignore this message.
+   **   ~~~   ** ...When active, DaylightSavingTime will shift all scheduled items by one hour, retaining the same day type as the original.
+   ** Warning ** FORCED AIR SYSTEM_1 is ready to perform cooling, but its DX cooling coil = DX COOLING COIL_1 is not available at Available Schedule = COOLINGSEASONSCHEDULE.
+   **   ~~~   ** Availability schedule returned=0.0 Environment=DENVER INTL AP CO 2500 SQFT, at Simulation time=04/20 17:48 - 17:50
+   ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 3.
+   **   ~~~   **  Environment=DENVER INTL AP CO 2500 SQFT, at Simulation time=05/09 16:15 - 16:20
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005] Current value is 6.844E-005 m3/s/W
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components or
+   **   ~~~   ** inconsistent supply air fan operation modes in coil and unitary system objects.
+   ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 4.
+   **   ~~~   **  Environment=DENVER INTL AP CO 2500 SQFT, at Simulation time=05/09 16:15 - 16:20
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005] Current value is 7.187E-005 m3/s/W
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components or
+   **   ~~~   ** inconsistent supply air fan operation modes in coil and unitary system objects.
+   ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 1.
+   **   ~~~   **  Environment=DENVER INTL AP CO 2500 SQFT, at Simulation time=05/09 16:15 - 16:20
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005] Current value is 9.763E-005 m3/s/W
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components or
+   **   ~~~   ** inconsistent supply air fan operation modes in coil and unitary system objects.
+   ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 2.
+   **   ~~~   **  Environment=DENVER INTL AP CO 2500 SQFT, at Simulation time=05/09 16:50 - 17:00
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005] Current value is 9.184E-005 m3/s/W
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components or
+   **   ~~~   ** inconsistent supply air fan operation modes in coil and unitary system objects.
+   ** Warning ** FORCED AIR SYSTEM_1 is ready to perform heating, but its DX heating coil = DX COOLING COIL_1 is not available at Available Schedule = HEATINGSEASONSCHEDULE.
+   **   ~~~   ** Availability schedule returned=0.0 Environment=DENVER INTL AP CO 2500 SQFT, at Simulation time=09/26 05:20 - 05:30
+   ************* Simulation Error Summary *************
+   ************* There are 24 unused schedules in input.
+   ************* There are 167 unused week schedules in input.
+   ************* There are 323 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** FORCED AIR SYSTEM_1: Cooling coil is still not available ...
+   *************  **   ~~~   **   This error occurred 2 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.  Min=0.
+   *************
+   *************  ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 3 error continues...
+   *************  **   ~~~   **   This error occurred 129730 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=6.937585E-005  Min=6.713185E-005
+   *************
+   *************  ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 4 error continues...
+   *************  **   ~~~   **   This error occurred 112876 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=7.284465E-005  Min=7.038799E-005
+   *************
+   *************  ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 1 error continues...
+   *************  **   ~~~   **   This error occurred 577008 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=9.898340E-005  Min=9.562373E-005
+   *************
+   *************  ** Warning ** Coil:Cooling:DX:MultiSpeed "DX COOLING COIL_1" - Air volume flow rate per watt of rated total cooling capacity is out of range at speed 2 error continues...
+   *************  **   ~~~   **   This error occurred 56428 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=9.271728E-005  Min=9.017525E-005
+   *************
+   *************  ** Warning ** FORCED AIR SYSTEM_1: Heating coil is still not available ...
+   *************  **   ~~~   **   This error occurred 176 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.  Min=0.
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 1 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 2 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 876248 Warning; 1 Severe Errors; Elapsed Time=00hr 01min 38.07sec
